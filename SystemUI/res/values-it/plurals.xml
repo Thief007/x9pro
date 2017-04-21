@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d schermate in Panoramica</item>
+        <item quantity="one">1 schermata in Panoramica</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN errato, hai ancora %d tentativi.</item>
+        <item quantity="one">PIN errato. Hai ancora %d tentativi, dopodichè dovrai contattare il tuo operatore per sbloccare il dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">PUK errato, hai ancora %d tentativi prima che la SIM diventi completamente inutilizzabile</item>
+        <item quantity="one">PUK errato, hai ancora %d tentativi prima che la tua SIM diventi completamente inutilizzabile.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Dispositivo sbloccato per %d ore. Conferma sequenza.</item>
+        <item quantity="one">Dispositivo sbloccato per %d ore. Conferma sequenza.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Dispositivo sbloccato per %d ore. Conferma PIN.</item>
+        <item quantity="one">Dispositivo sbloccato per %d ore. Conferma PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Dispositivo sbloccato per %d ore. Conferma Password.</item>
+        <item quantity="one">Dispositivo sbloccato per %d ore. Conferma Password.</item>
+    </plurals>
+</resources>

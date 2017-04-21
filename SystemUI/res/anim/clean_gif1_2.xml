@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_12" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_13" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_14" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_15" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_16" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_17" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_18" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_19" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_20" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_21" />
+    <item android:duration="@integer/clean_gif_interval" android:drawable="@drawable/clean_22" />
+</animation-list>

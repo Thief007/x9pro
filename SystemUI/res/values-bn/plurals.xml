@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d সাম্প্রতিক অ্যাপ</item>
+        <item quantity="one">১টি সাম্প্রতিক অ্যাপ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ভুল SIM PIN কোড, আপনার কাছে আর %dটি প্রচেষ্টা বাকি রয়েছে৷</item>
+        <item quantity="one">ভুল SIM PIN কোড, আপনার কাছে আর %dটি প্রচেষ্টা বাকি রয়েছে, তার পরে আপনার ডিভাইসটি আনলক করতে আপনাকে অবশ্যই আপনার ক্যারিয়ারের সাথে যোগাযোগ করতে হবে৷</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ভুল SIM PUK কোড, আপনার কাছে আর %dটি প্রচেষ্টা বাকি রয়েছে এটির পরেই আপনার SIM স্থায়ীভাবে অব্যবহারযোগ্য হবে৷</item>
+        <item quantity="one">ভুল SIM PUK কোড, আপনার কাছে আর %dটি প্রচেষ্টা বাকি রয়েছে এটির পরেই আপনার SIM স্থায়ীভাবে অব্যবহারযোগ্য হবে৷</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">%d ঘণ্টার জন্য ডিভাইস আনলক করা হয়নি। প্যাটার্ন নিশ্চিত করুন।</item>
+        <item quantity="one">%d ঘণ্টার জন্য ডিভাইস আনলক করা হয়নি। প্যাটার্ন নিশ্চিত করুন।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">%d ঘণ্টার জন্য ডিভাইস আনলক করা হয়নি। পিন নিশ্চিত করুন।</item>
+        <item quantity="one">%d ঘণ্টার জন্য ডিভাইস আনলক করা হয়নি। পিন নিশ্চিত করুন।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d ঘণ্টার জন্য ডিভাইস আনলক করা হয়নি। পাসওয়ার্ড নিশ্চিত করুন</item>
+        <item quantity="one">%d ঘণ্টার জন্য ডিভাইস আনলক করা হয়নি। পাসওয়ার্ড নিশ্চিত করুন</item>
+    </plurals>
+</resources>

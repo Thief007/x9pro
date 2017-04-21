@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.RemoteInputView xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/systemui_theme_light" android:paddingTop="2dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="4dp" android:paddingEnd="2dp">
+    <view android:id="@id/remote_input_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="actionSend|actionNext|actionDone|actionPrevious" class="com.android.systemui.statusbar.policy.RemoteInputView$RemoteEditText" />
+    <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/remote_input_progress" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="?unknown_attr_ref: 1010078" />
+</com.android.systemui.statusbar.policy.RemoteInputView>

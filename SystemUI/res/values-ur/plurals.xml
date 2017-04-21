@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">جائزہ میں %d اسکرینز</item>
+        <item quantity="one">جائزہ میں 1 میں ایک اسکرین</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">‏غلط SIM PIN کوڈ، آپ کے پاس %d کوششیں بچی ہیں۔</item>
+        <item quantity="one">‏غلط SIM PIN کوڈ، اس سے پہلے کہ آپ اپنا آلہ غیر مقفل کرنے کیلئے لازمی طور پر اپنے کیریئر سے رابطہ کریں آپ کے پاس %d کوشش بچی ہے۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏غلط SIM PUK کوڈ، SIM مستقل طور پر ناقابل استعمال ہونے سے پہلے آپ کے پاس %d کوششیں بچی ہیں۔</item>
+        <item quantity="one">‏غلط SIM PUK کوڈ، SIM مستقل طور پر ناقابل استعمال ہونے سے پہلے آپ کے پاس %d کوشش بچی ہے۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">آلے کو %d گھنٹوں کے لیے آن نہیں کیا گیا۔ خاکہ کی تصدیق کریں۔</item>
+        <item quantity="one">آلے کو %d گھنٹوں کے لیے آن نہیں کیا گیا۔ خاکہ کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">آلے کو %d گھنٹوں کے لیے آن نہیں کیا گیا۔ PIN کی تصدیق کریں۔</item>
+        <item quantity="one">آلے کو %d گھنٹوں کے لیے آن نہیں کیا گیا۔ PIN کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">آلے کو %d گھنٹوں کے لیے آن نہیں کیا گیا۔ پاس ورڈ کی توثیق کریں۔</item>
+        <item quantity="one">آلے کو %d گھنٹوں کے لیے آن نہیں کیا گیا۔ پاس ورڈ کی توثیق کریں۔</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>S&apos;està cercant...</item>
+        <item>S&apos;està connectant…</item>
+        <item>S&apos;està autenticant…</item>
+        <item>S&apos;està obtenint l&apos;adreça IP…</item>
+        <item>Connectat</item>
+        <item>Suspesa</item>
+        <item>S&apos;està desconnectant...</item>
+        <item>Desconnectada</item>
+        <item>Incorrecte</item>
+        <item>Bloquejada</item>
+        <item>S&apos;està evitant temporalment una connexió feble</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>S&apos;està cercant...</item>
+        <item>S&apos;està connectant a %1$s...</item>
+        <item>S&apos;està autenticant amb %1$s…</item>
+        <item>S&apos;està obtenint l&apos;adreça IP de %1$s…</item>
+        <item>Connectat a %1$s</item>
+        <item>Suspesa</item>
+        <item>S&apos;està desconnectant de %1$s…</item>
+        <item>Desconnectada</item>
+        <item>Incorrecte</item>
+        <item>Bloquejada</item>
+        <item>S&apos;està evitant temporalment una connexió feble</item>
+    </array>
+</resources>

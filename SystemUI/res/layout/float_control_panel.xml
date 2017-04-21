@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.systemui.floatpanel.FloatPanelView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@id/extent_panel" android:background="@drawable/float_panel_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <com.mediatek.systemui.floatpanel.DragSortGridView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/extent_grid" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0002" android:layout_marginTop="8dp" android:horizontalSpacing="@dimen/gridview_horizontal_spacing" android:verticalSpacing="@dimen/gridview_vertical_spacing" android:stretchMode="spacingWidth" android:columnWidth="@dimen/gridview_column_width" android:numColumns="UNKNOWN_DATA_0x7f0c0000" />
+    </LinearLayout>
+    <com.mediatek.systemui.floatpanel.CustomizedHorizontalScrollView android:id="@id/resident_container" android:background="@drawable/float_panel_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.mediatek.systemui.floatpanel.DragSortGridView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/resident_grid" android:paddingTop="20dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6601" android:horizontalSpacing="@dimen/gridview_horizontal_spacing" android:stretchMode="none" android:columnWidth="@dimen/gridview_column_width" android:numColumns="auto_fit" android:minWidth="@dimen/float_bottom_min_width" />
+    </com.mediatek.systemui.floatpanel.CustomizedHorizontalScrollView>
+</com.mediatek.systemui.floatpanel.FloatPanelView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>স্ক্যান হচ্ছে…</item>
+        <item>সংযুক্ত হচ্ছে…</item>
+        <item>সত্যপ্রতিপাদন করা হচ্ছে…</item>
+        <item>আইপি ঠিকানা লাভ করছে…</item>
+        <item>সংযুক্ত</item>
+        <item>সাময়িকভাবে স্থগিত করা হয়েছে</item>
+        <item>সংযোগ বিচ্ছিন্ন করা হচ্ছে…</item>
+        <item>সংযোগ বিচ্ছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্ক্যান হচ্ছে…</item>
+        <item>সংযুক্ত হচ্ছে %1$s…-তে</item>
+        <item>সত্যপ্রতিপাদন করা হচ্ছে %1$s… এর সাথে</item>
+        <item>আইপি ঠিকানা সংগ্রহ করা হচ্ছে %1$s… থেকে</item>
+        <item>সংযুক্ত হচ্ছে %1$s সাথে</item>
+        <item>সাময়িকভাবে বাতিল করা হয়েছে</item>
+        <item>বিচ্ছিন্ন করা হচ্ছে %1$s… থেকে</item>
+        <item>বিচ্ছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+    </array>
+</resources>

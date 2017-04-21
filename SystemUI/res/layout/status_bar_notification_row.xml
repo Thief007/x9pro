@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ExpandableNotificationRow xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@id/backgroundNormal" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@id/backgroundDimmed" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.android.systemui.statusbar.NotificationContentView android:id="@id/expanded" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.android.systemui.statusbar.NotificationContentView android:id="@id/expandedPublic" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/veto" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x1" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_marginEnd="-80dp" />
+    <ViewStub android:id="@id/child_container_stub" android:layout="@layout/notification_children_container" android:inflatedId="@id/notification_children_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/more_button_stub" android:layout="@layout/notification_expand_button" android:inflatedId="@id/notification_more_button_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b008f" />
+    <ViewStub android:id="@id/notification_guts_stub" android:layout="@layout/notification_guts" android:inflatedId="@id/notification_guts" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.android.systemui.statusbar.ExpandableNotificationRow>

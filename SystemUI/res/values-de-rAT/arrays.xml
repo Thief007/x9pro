@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Suchen…</item>
+        <item>Verbinden…</item>
+        <item>Authentisieren…</item>
+        <item>IP-Adresse abrufen…</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Trennen…</item>
+        <item>Getrennt</item>
+        <item>Erfolglos</item>
+        <item>Blockiert</item>
+        <item>Schlechte Verbindung wird zeitweise gemieden</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Suchen…</item>
+        <item>Mit %1$s… verbinden</item>
+        <item>Mit %1$s… authentisieren</item>
+        <item>IP-Adresse von %1$s… abrufen</item>
+        <item>Mit %1$s verbunden</item>
+        <item>Angehalten</item>
+        <item>Von %1$s… trennen</item>
+        <item>Getrennt</item>
+        <item>Erfolglos</item>
+        <item>Blockiert</item>
+        <item>Schlechte Verbindung wird zeitweise gemieden</item>
+    </array>
+</resources>

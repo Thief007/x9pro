@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN коды дұрыс емес, %d рет әрекеттену мүмкіндігіңіз қалды.</item>
+        <item quantity="one">SIM PIN коды дұрыс емес, құрылғыны жабу өтінішімен жабдықтаушыға хабарласуға дейін %d рет әрекеттену мүмкіндігіңіз бар.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK коды дұрыс емес, %d әрекеттен кейін SIM қолданыстан мүлдем шығады.</item>
+        <item quantity="one">SIM PIN коды дұрыс емес, %d әрекеттен кейін SIM қолданыстан мүлдем шығады.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Құрылғы құлпы %d сағат бойы ашылмады. Өрнекті растаңыз.</item>
+        <item quantity="one">Құрылғы құлпы %d сағат бойы ашылмады. Өрнекті растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Құрылғы құлпы %d сағат бойы ашылмады. PIN кодын растаңыз.</item>
+        <item quantity="one">Құрылғы құлпы %d сағат бойы ашылмады. PIN кодын растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Құрылғы құлпы %d сағат бойы ашылмады. Құпия сөзді растаңыз.</item>
+        <item quantity="one">Құрылғы құлпы %d сағат бойы ашылмады. Құпия сөзді растаңыз.</item>
+    </plurals>
+</resources>

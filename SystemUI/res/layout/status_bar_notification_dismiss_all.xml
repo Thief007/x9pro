@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.DismissView xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.systemui.statusbar.DismissViewButton android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dismiss_text" android:background="@r$drawable/ripple_drawable" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:contentDescription="@string/accessibility_clear_all" />
+</com.android.systemui.statusbar.DismissView>

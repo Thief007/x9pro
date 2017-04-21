@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.StatusBarWindowView xmlns:android="http://schemas.android.com/apk/res-auto" sysui:fitsSystemWindows="true" sysui:layout_width="match_parent" sysui:layout_height="match_parent">
+    <com.android.systemui.statusbar.BackDropView sysui:id="@id/backdrop" sysui:visibility="gone" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:ignoreRightInset="true">
+        <ImageView sysui:id="@id/backdrop_back" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:scaleType="centerCrop" />
+        <ImageView sysui:id="@id/backdrop_front" sysui:visibility="invisible" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:scaleType="centerCrop" />
+    </com.android.systemui.statusbar.BackDropView>
+    <com.android.systemui.statusbar.ScrimView sysui:id="@id/scrim_behind" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:importantForAccessibility="no" sysui:ignoreRightInset="true" />
+    <com.android.systemui.statusbar.AlphaOptimizedView sysui:id="@id/heads_up_scrim" sysui:background="@drawable/heads_up_scrim" sysui:layout_width="match_parent" sysui:layout_height="UNKNOWN_DATA_0x7f0b0083" sysui:importantForAccessibility="no" />
+    <include sysui:layout_width="match_parent" sysui:layout_height="UNKNOWN_DATA_0x7f0b00e0" layout="@layout/status_bar" />
+    <FrameLayout sysui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|fill_horizontal|center|fill|start|end" sysui:id="@id/brightness_mirror" sysui:paddingLeft="@dimen/notification_side_padding" sysui:paddingRight="@dimen/notification_side_padding" sysui:visibility="invisible" sysui:layout_width="UNKNOWN_DATA_0x7f0b0038" sysui:layout_height="wrap_content"
+        <FrameLayout sysui:background="@drawable/brightness_mirror_background" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:elevation="2dp">
+            <include sysui:layout_width="match_parent" sysui:layout_height="wrap_content" layout="@layout/quick_settings_brightness_dialog" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.android.systemui.statusbar.phone.PanelHolder sysui:id="@id/panel_holder" sysui:background="@color/transparent" sysui:layout_width="match_parent" sysui:layout_height="match_parent">
+        <include sysui:visibility="gone" sysui:layout_width="match_parent" sysui:layout_height="match_parent" layout="@layout/status_bar_expanded" />
+    </com.android.systemui.statusbar.phone.PanelHolder>
+    <com.android.systemui.statusbar.ScrimView sysui:id="@id/scrim_in_front" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:importantForAccessibility="no" sysui:ignoreRightInset="true" />
+</com.android.systemui.statusbar.phone.StatusBarWindowView>

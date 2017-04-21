@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="default_residentpackage">res/xml/default_residentpackage.xml</xml>
+    <xml name="timezones">res/xml/timezones.xml</xml>
+    <xml name="tuner_prefs">res/xml/tuner_prefs.xml</xml>
+</resources>

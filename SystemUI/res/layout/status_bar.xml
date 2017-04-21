@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.PhoneStatusBarView xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:orientation="vertical" systemui:id="@id/status_bar" systemui:background="@drawable/system_bar_background" systemui:focusable="false" systemui:descendantFocusability="afterDescendants">
+    <ImageView systemui:id="@id/notification_lights_out" systemui:paddingBottom="2dp" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0b001f" systemui:layout_height="match_parent" systemui:src="@drawable/ic_sysbar_lights_out_dot_small" systemui:scaleType="center" systemui:paddingStart="6dp" />
+    <LinearLayout systemui:orientation="horizontal" systemui:id="@id/status_bar_contents" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:paddingStart="6dp" systemui:paddingEnd="8dp">
+        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout systemui:orientation="horizontal" systemui:id="@id/notification_icon_area" systemui:layout_width="UNKNOWN_DATA_0x1" systemui:layout_height="match_parent" systemui:layout_weight="1.0">
+            <com.android.keyguard.AlphaOptimizedLinearLayout systemui:id="@id/notification_icon_area_inner" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+                <com.android.systemui.statusbar.StatusBarIconView systemui:id="@id/moreIcon" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0b001f" systemui:layout_height="match_parent" systemui:src="@drawable/stat_notify_more" />
+                <com.android.systemui.statusbar.phone.IconMerger systemui:gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:orientation="horizontal" systemui:id="@id/notificationIcons" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:layout_alignParentStart="true" />
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+        </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+        <com.android.keyguard.AlphaOptimizedLinearLayout systemui:orientation="horizontal" systemui:id="@id/system_icon_area" systemui:layout_width="wrap_content" systemui:layout_height="match_parent">
+            <include layout="@layout/system_icons" />
+            <TextView systemui:textSize="@dimen/battery_level_text_size" systemui:textColor="#ffffffff" systemui:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:id="@id/battery_level" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:importantForAccessibility="noHideDescendants" systemui:paddingEnd="@dimen/battery_level_padding_end" systemui:layout_marginStart="@dimen/header_battery_margin_keyguard" />
+            <com.android.systemui.statusbar.policy.Clock systemui:textAppearance="@style/TextAppearance.StatusBar.Clock" systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@r$id/clock" systemui:layout_width="wrap_content" systemui:layout_height="match_parent" systemui:singleLine="true" systemui:paddingStart="7dp" />
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+    </LinearLayout>
+</com.android.systemui.statusbar.phone.PhoneStatusBarView>

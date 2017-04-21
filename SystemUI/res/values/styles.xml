@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="config_recents_activity_theme">@style/RecentsTheme.Wallpaper</style>
+    <style name="RecentsStyle">
+        <item>@style/Animation.RecentsActivity</item>
+    </style>
+    <style name="RecentsTheme">
+        <item>true</item>
+        <item>@style/Animation.RecentsActivity</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>0.35</item>
+    </style>
+    <style name="RecentsTheme.Wallpaper">
+        <item>@color/transparent</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="RecentsTheme.NoWallpaper">
+        <item>?unknown_ref: 106000c</item>
+    </style>
+    <style name="Animation.RecentsActivity">
+        <item>@anim/recents_launch_from_launcher_enter</item>
+        <item>@anim/recents_launch_from_launcher_exit</item>
+        <item>@anim/recents_launch_from_launcher_enter</item>
+        <item>@anim/recents_launch_from_launcher_exit</item>
+        <item>@anim/recents_launch_from_launcher_enter</item>
+        <item>@anim/recents_launch_from_launcher_exit</item>
+        <item>@anim/recents_launch_from_launcher_enter</item>
+        <item>@anim/recents_launch_from_launcher_exit</item>
+        <item>@anim/wallpaper_recents_launch_from_launcher_enter</item>
+        <item>@anim/wallpaper_recents_launch_from_launcher_exit</item>
+    </style>
+    <style name="TextAppearance.StatusBar.HeadsUp">
+    </style>
+    <style name="TextAppearance.StatusBar.SystemPanel">
+        <item>?unknown_attr_ref: 1010034</item>
+        <item>0</item>
+        <item>#ff808080</item>
+    </style>
+    <style name="TextAppearance.StatusBar.TextButton">
+        <item>?unknown_attr_ref: 1010034</item>
+        <item>0</item>
+        <item>#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Clock">
+        <item>@dimen/status_bar_clock_size</item>
+        <item>@color/status_bar_clock_color</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded">
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Clock">
+        <item>@dimen/qs_time_expanded_size</item>
+        <item>#ffffffff</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date">
+        <item>@dimen/qs_date_collapsed_size</item>
+        <item>0</item>
+        <item>#b2ffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.AboveDateTime">
+        <item>@dimen/qs_emergency_calls_only_text_size</item>
+        <item>0</item>
+        <item>#66ffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.EmergencyCallsOnly">
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.ChargingInfo">
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher">
+        <item>16sp</item>
+        <item>0</item>
+        <item>@color/qs_user_detail_name</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher.UserName">
+    </style>
+    <style name="TextAppearance">
+    </style>
+    <style name="TextAppearance.QS">
+        <item>0</item>
+        <item>@color/qs_text</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.QS.DetailHeader">
+        <item>@dimen/qs_detail_header_text_size</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemPrimary">
+        <item>@dimen/qs_detail_item_primary_text_size</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemSecondary">
+        <item>@dimen/qs_detail_item_secondary_text_size</item>
+        <item>@color/system_accent_color</item>
+    </style>
+    <style name="TextAppearance.QS.Introduction">
+        <item>14sp</item>
+    </style>
+    <style name="TextAppearance.QS.Warning">
+        <item>14sp</item>
+        <item>@color/system_warning_color</item>
+    </style>
+    <style name="TextAppearance.QS.DetailButton">
+        <item>@dimen/qs_detail_button_text_size</item>
+        <item>@color/qs_detail_button</item>
+        <item>11</item>
+        <item>true</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DetailButton.White">
+        <item>@color/qs_detail_button_white</item>
+    </style>
+    <style name="TextAppearance.QS.DetailEmpty">
+        <item>@dimen/qs_detail_empty_text_size</item>
+        <item>@color/qs_subhead</item>
+    </style>
+    <style name="TextAppearance.QS.Subhead">
+        <item>14sp</item>
+        <item>@color/qs_subhead</item>
+    </style>
+    <style name="TextAppearance.QS.SegmentedButton">
+        <item>16sp</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage">
+        <item>@dimen/qs_data_usage_text_size</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage.Usage">
+        <item>@dimen/qs_data_usage_usage_text_size</item>
+        <item>@color/system_accent_color</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage.Secondary">
+        <item>@color/data_usage_secondary</item>
+    </style>
+    <style name="BaseBrightnessDialogContainer">
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="BrightnessDialogContainer">
+    </style>
+    <style name="BrightnessDialogContainer">
+        <item>480dp</item>
+    </style>
+    <style name="BrightnessDialogContainer">
+        <item>360dp</item>
+    </style>
+    <style name="Animation">
+    </style>
+    <style name="Animation.ShirtPocketPanel">
+        <item>?unknown_ref: 10a0023</item>
+        <item>?unknown_ref: 10a0067</item>
+    </style>
+    <style name="Animation.RecentPanel">
+        <item>?unknown_ref: 10a0023</item>
+        <item>?unknown_ref: 10a0067</item>
+    </style>
+    <style name="Animation.NavigationBarFadeIn">
+        <item>@anim/navbar_fade_in</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Animation.StatusBar">
+    </style>
+    <style name="systemui_theme">
+        <item>@color/system_accent_color</item>
+        <item>@color/system_primary_color</item>
+    </style>
+    <style name="systemui_theme_light">
+        <item>@color/system_accent_color</item>
+        <item>@color/system_primary_color</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog">
+        <item>@color/system_accent_color</item>
+        <item>@color/system_primary_color</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog.Alert">
+    </style>
+    <style name="Theme.SystemUI.Dialog.Alert">
+    </style>
+    <style name="QSBorderlessButton">
+        <item>11</item>
+        <item>@drawable/btn_borderless_rect</item>
+        <item>12dp</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Parenthetical">
+        <item>2</item>
+        <item>#60000000</item>
+    </style>
+    <style name="SearchPanelCircle">
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="UserDetailView">
+        <item>3</item>
+    </style>
+    <style name="UserDetailView">
+        <item>4</item>
+    </style>
+    <style name="Theme.AlertDialogHost">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>@style/Theme.SystemUI.Dialog.Alert</item>
+    </style>
+    <style name="DualToneLightTheme">
+        <item>@color/light_mode_icon_color_dual_tone_background</item>
+        <item>@color/light_mode_icon_color_dual_tone_fill</item>
+        <item>@color/light_mode_icon_color_single_tone</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item>@color/dark_mode_icon_color_dual_tone_background</item>
+        <item>@color/dark_mode_icon_color_dual_tone_fill</item>
+        <item>@color/dark_mode_icon_color_single_tone</item>
+    </style>
+    <style name="TextAppearance.Volume">
+        <item>0</item>
+        <item>#ffffffff</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.Header">
+        <item>12sp</item>
+        <item>@color/volume_slider_inactive</item>
+    </style>
+    <style name="TextAppearance.Volume.ZenSummary">
+        <item>14sp</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Volume.ZenDetail">
+        <item>14sp</item>
+        <item>#ffb0b3c5</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="VolumeButtons">
+        <item>@drawable/btn_borderless_rect</item>
+    </style>
+    <style name="label">
+        <item>@dimen/label_font_size</item>
+        <item>1</item>
+        <item>true</item>
+        <item>sans-serif-condensed</item>
+    </style>
+    <style name="header">
+        <item>@dimen/header_font_size</item>
+        <item>1</item>
+        <item>true</item>
+        <item>sans-serif-condensed</item>
+    </style>
+    <style name="header_not_caps">
+        <item>false</item>
+    </style>
+    <style name="big_bold">
+        <item>@dimen/big_font_size</item>
+        <item>1</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="widget_big_bold">
+        <item>@dimen/widget_big_font_size</item>
+    </style>
+    <style name="DismissPadKey">
+        <item>20dp</item>
+        <item>0</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>10dp</item>
+        <item>true</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="big_thin">
+        <item>@dimen/big_font_size</item>
+        <item>sans-serif-thin</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey">
+        <item>36sp</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>?unknown_ref: 0</item>
+        <item>-16dp</item>
+        <item>true</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey.Klondike">
+        <item>12sp</item>
+        <item>#80ffffff</item>
+        <item>0dp</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="widget_label">
+        <item>@dimen/widget_label_font_size</item>
+    </style>
+    <style name="widget_big_thin">
+        <item>@dimen/widget_big_font_size</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="BouncerSecurityContainer">
+        <item>51</item>
+    </style>
+    <style name="BouncerSecurityContainer">
+        <item>11</item>
+    </style>
+    <style name="PasswordTheme">
+        <item>#80ffffff</item>
+        <item>#80ffffff</item>
+    </style>
+    <style name="keyguard_presentation_theme">
+    </style>
+</resources>

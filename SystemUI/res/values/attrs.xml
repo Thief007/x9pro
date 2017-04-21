@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="residentPackageName">
+        <item>2</item>
+    </attr>
+    <attr name="residentClassName">
+        <item>2</item>
+    </attr>
+    <attr name="residentOrder">
+        <item>4</item>
+    </attr>
+    <attr name="keyCode">
+        <item>4</item>
+    </attr>
+    <attr name="keyRepeat">
+        <item>8</item>
+    </attr>
+    <attr name="text">
+        <item>2</item>
+    </attr>
+    <attr name="insetLeft">
+        <item>64</item>
+    </attr>
+    <attr name="rowHeight">
+        <item>64</item>
+    </attr>
+    <attr name="recentItemLayout">
+        <item>1</item>
+    </attr>
+    <attr name="minSize">
+        <item>64</item>
+    </attr>
+    <attr name="maxSize">
+        <item>64</item>
+    </attr>
+    <attr name="holdTime">
+        <item>4</item>
+    </attr>
+    <attr name="decayTime">
+        <item>4</item>
+    </attr>
+    <attr name="frameColor">
+        <item>16</item>
+    </attr>
+    <attr name="amPmStyle">
+        <item>65536</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="orientation">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="frameWidth">
+        <item>64</item>
+    </attr>
+    <attr name="framePadding">
+        <item>64</item>
+    </attr>
+    <attr name="activeFrameColor">
+        <item>16</item>
+    </attr>
+    <attr name="regularFontFamily">
+        <item>2</item>
+    </attr>
+    <attr name="activatedFontFamily">
+        <item>2</item>
+    </attr>
+    <attr name="datePattern">
+        <item>2</item>
+    </attr>
+    <attr name="numColumns">
+        <item>4</item>
+    </attr>
+    <attr name="verticalSpacing">
+        <item>64</item>
+    </attr>
+    <attr name="horizontalSpacing">
+        <item>64</item>
+    </attr>
+    <attr name="backgroundColor">
+        <item>4</item>
+    </attr>
+    <attr name="fillColor">
+        <item>4</item>
+    </attr>
+    <attr name="singleToneColor">
+        <item>4</item>
+    </attr>
+    <attr name="ignoreRightInset">
+        <item>8</item>
+    </attr>
+    <attr name="hasOverlappingRendering">
+        <item>8</item>
+    </attr>
+    <attr name="locateAtNonSecureView">
+        <item>8</item>
+    </attr>
+    <attr name="targetDrawables">
+        <item>1</item>
+    </attr>
+    <attr name="targetDescriptions">
+        <item>1</item>
+    </attr>
+    <attr name="directionDescriptions">
+        <item>1</item>
+    </attr>
+    <attr name="handleDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="outerRingDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="pointDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="innerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="outerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="glowRadius">
+        <item>64</item>
+    </attr>
+    <attr name="vibrationDuration">
+        <item>4</item>
+    </attr>
+    <attr name="snapMargin">
+        <item>64</item>
+    </attr>
+    <attr name="feedbackCount">
+        <item>4</item>
+    </attr>
+    <attr name="alwaysTrackFinger">
+        <item>8</item>
+    </attr>
+    <attr name="allowScaling">
+        <item>8</item>
+    </attr>
+    <attr name="layout_maxWidth">
+        <item>64</item>
+    </attr>
+    <attr name="layout_maxHeight">
+        <item>64</item>
+    </attr>
+    <attr name="digit">
+        <item>4</item>
+    </attr>
+    <attr name="textView">
+        <item>1</item>
+    </attr>
+    <attr name="scaledTextSize">
+        <item>4</item>
+    </attr>
+    <attr name="allCaps">
+        <item>8</item>
+    </attr>
+</resources>

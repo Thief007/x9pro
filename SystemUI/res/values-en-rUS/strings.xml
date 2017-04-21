@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="audio_profile">Audio profiles</string>
+    <string name="normal">General</string>
+    <string name="meeting">Meeting</string>
+    <string name="mute">Silent</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="wfd_sink_summary">Discoverable by others</string>
+    <string name="mobile">Data connection</string>
+    <string name="data_usage">Data usage</string>
+    <string name="screen_pinning_description_physical_key">This keeps it in view until you unpin. Touch and hold Back key to unpin.</string>
+</resources>

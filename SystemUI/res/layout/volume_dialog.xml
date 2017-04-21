@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/volume_dialog" android:background="@drawable/volume_dialog_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/notification_side_padding" android:layout_marginRight="@dimen/notification_side_padding" android:layout_marginBottom="@dimen/volume_dialog_margin_bottom" android:translationZ="4dp">
+    <com.android.keyguard.AlphaOptimizedImageButton android:id="@id/volume_expand_button" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0b00d6" android:layout_height="UNKNOWN_DATA_0x7f0b00d6" android:src="@drawable/ic_volume_collapse_animation" android:layout_alignParentLeft="true" android:soundEffectsEnabled="false" style="@style/VolumeButtons" />
+    <LinearLayout android:orientation="vertical" android:id="@id/volume_dialog_content" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/volume_zen_footer" />
+    </LinearLayout>
+</RelativeLayout>

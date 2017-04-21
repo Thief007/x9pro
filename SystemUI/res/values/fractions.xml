@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="keyguard_clock_y_fraction_max">32,5%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">32,5%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">34%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">35%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">37%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">35%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">32,5%</fraction>
+    <fraction name="keyguard_clock_y_fraction_max">32,5%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">19,8%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">18,5%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">24%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">25%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">20%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">24%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">24%</fraction>
+    <fraction name="keyguard_clock_y_fraction_min">19,8%</fraction>
+    <fraction name="battery_button_height_fraction">10,5%</fraction>
+    <fraction name="battery_button_height_fraction">12%</fraction>
+    <fraction name="battery_button_height_fraction">12%</fraction>
+    <fraction name="battery_button_height_fraction">10,5%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">0%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">10%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">10%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">20%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">25%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">33%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">0%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">10%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">10%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">12%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">12,5%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">33%</fraction>
+</resources>

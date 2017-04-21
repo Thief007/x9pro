@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d Kürzlich verwendete Apps</item>
+        <item quantity="one">1 kürzlich verwendete App</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Falscher SIM-PIN-Code, Sie haben %d weitere Versuche.</item>
+        <item quantity="one">Falscher SIM-PIN-Code, Sie haben %d weitere Versuche, bevor Sie den Anbieter kontaktieren müssen, damit Ihr Gerät wieder entsperrt wird.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Falscher PUK-Code der SIM-Karte. Sie haben noch %d Versuche, bevor Ihre SIM-Karte endgültig gesperrt wird.</item>
+        <item quantity="one">Falscher PUK-Code der SIM-Karte. Sie haben noch %d Versuch, bevor Ihre SIM-Karte endgültig gesperrt wird.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Gerät wurde seit %d Stunden nicht entsperrt. Bestätigen Sie das Muster.</item>
+        <item quantity="one">Gerät wurde seit %d Stunde nicht entsperrt. Bestätigen Sie das Muster.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Gerät wurde seit %d Stunden nicht entsperrt. Bestätigen Sie die PIN.</item>
+        <item quantity="one">Gerät wurde seit %d Stunde nicht entsperrt. Bestätigen Sie die PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Gerät wurde seit %d Stunden nicht entsperrt. Bestätigen Sie das Kennwort.</item>
+        <item quantity="one">Gerät wurde seit %d Stunden nicht entsperrt. Bestätigen Sie das Kennwort.</item>
+    </plurals>
+</resources>

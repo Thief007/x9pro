@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/recents_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/status_bar_scrim" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/recents_status_gradient" android:scaleType="fitXY" />
+        <com.android.systemui.recents.views.RecentsView android:id="@id/recents_view" android:focusable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1f401" />
+        <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/recents_empty" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ViewStub android:id="@id/debug_overlay_stub" android:layout="@layout/recents_debug_overlay" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nav_bar_scrim" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/memInfoLayout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="510dp" android:layout_weight="1.0">
+            <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:text="@string/fineos_memreyInfoStr" android:shadowColor="#ff000000" />
+            <TextView android:textColor="@color/fineos_freeMemreyInfoColor" android:id="@id/freeMemreyInfoId" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" />
+            <TextView android:textColor="#ffffffff" android:id="@id/totalMemreyInfoId" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" />
+        </LinearLayout>
+        <ImageView android:id="@id/removeAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginTop="530dp" android:src="@drawable/ic_recent_clear" />
+        <ImageView android:id="@id/removeAllTween" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginTop="530dp" android:src="@drawable/fineos_del_tween" />
+    </RelativeLayout>
+    <com.android.systemui.recents.CircleBackground app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/circle_background" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x4501" app:layout_height="UNKNOWN_DATA_0x4501" app:layout_marginBottom="40dp" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/clean_icon_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp" android:src="@drawable/clean_bg" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/clean_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp" />
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item>Scansione…</item>
+        <item>Connessione…</item>
+        <item>Autenticazione…</item>
+        <item>Acquisizione indirizzo IP…</item>
+        <item>Connesso</item>
+        <item>In attesa</item>
+        <item>Disconnessione…</item>
+        <item>Disconnesso</item>
+        <item>Operazione non riuscita</item>
+        <item>Bloccato</item>
+        <item>Evitamento connessioni scadenti</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item>Scansione…</item>
+        <item>Connessione a %1$s…</item>
+        <item>Autenticazione con %1$s…</item>
+        <item>Acquisizione indirizzo IP da %1$s…</item>
+        <item>Connesso a %1$s</item>
+        <item>In attesa</item>
+        <item>Disconnessione da %1$s…</item>
+        <item>Disconnesso</item>
+        <item>Operazione non riuscita</item>
+        <item>Bloccato</item>
+        <item>Evitamento connessioni scadenti</item>
+    </array>
+</resources>

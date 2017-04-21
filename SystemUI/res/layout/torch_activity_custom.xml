@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/cutom_torch" android:background="@drawable/bulb_off" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@id/bt_torch" android:layout_width="UNKNOWN_DATA_0x5501" android:layout_height="UNKNOWN_DATA_0x5501" android:layout_marginLeft="138dp" android:layout_marginTop="310dp" />
+</LinearLayout>

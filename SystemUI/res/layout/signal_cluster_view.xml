@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SignalClusterView xmlns:android="http://schemas.android.com/apk/res-auto" systemui:gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:orientation="horizontal" systemui:layout_width="wrap_content" systemui:layout_height="match_parent" systemui:paddingEnd="@dimen/signal_cluster_battery_padding">
+    <ImageView systemui:id="@id/vpn" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/stat_sys_vpn_ic" systemui:paddingEnd="6dp" />
+    <FrameLayout systemui:id="@id/ethernet_combo" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneLightTheme" systemui:id="@id/ethernet" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:hasOverlappingRendering="false" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneDarkTheme" systemui:id="@id/ethernet_dark" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:alpha="0.0" systemui:hasOverlappingRendering="false" />
+    </FrameLayout>
+    <FrameLayout systemui:id="@id/wifi_combo" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneLightTheme" systemui:id="@id/wifi_signal" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:hasOverlappingRendering="false" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneDarkTheme" systemui:id="@id/wifi_signal_dark" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:alpha="0.0" systemui:hasOverlappingRendering="false" />
+    </FrameLayout>
+    <View systemui:id="@id/wifi_signal_spacer" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x401" systemui:layout_height="UNKNOWN_DATA_0x401" />
+    <ImageView systemui:id="@id/hd_voice_icon" systemui:visibility="gone" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+    <ImageView systemui:id="@id/volte_indicator" systemui:visibility="gone" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_marginEnd="3dp" />
+    <ImageView systemui:id="@id/default_sim_type" systemui:visibility="gone" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_marginEnd="3dp" />
+    <LinearLayout systemui:id="@id/mobile_signal_group" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+    <FrameLayout systemui:id="@id/no_sims_combo" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:contentDescription="@string/accessibility_no_sims">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneLightTheme" systemui:id="@id/no_sims" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/stat_sys_no_sims" systemui:hasOverlappingRendering="false" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneDarkTheme" systemui:id="@id/no_sims_dark" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/stat_sys_no_sims" systemui:alpha="0.0" systemui:hasOverlappingRendering="false" />
+    </FrameLayout>
+    <View systemui:id="@id/wifi_airplane_spacer" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x401" systemui:layout_height="UNKNOWN_DATA_0x401" />
+    <ImageView systemui:id="@id/airplane" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+</com.android.systemui.statusbar.SignalClusterView>

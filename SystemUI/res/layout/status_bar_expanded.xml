@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NotificationPanelView xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:id="@id/notification_panel" systemui:background="0x106000d" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+    <include systemui:visibility="gone" systemui:layout_height="wrap_content" layout="@layout/keyguard_status_view" />
+    <com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|fill_horizontal|center|fill|start|end" systemui:id="@id/notification_container_parent" systemui:clipChildren="false" systemui:clipToPadding="false" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+        <com.android.systemui.statusbar.phone.ObservableScrollView systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|fill_horizontal|center|fill|start|end" systemui:id="@id/scroll_view" systemui:scrollbars="UNKNOWN_DATA_0x0" systemui:layout_width="UNKNOWN_DATA_0x7f0b0038" systemui:layout_height="match_parent" systemui:fillViewport="true" systemui:overScrollMode="never">
+            <LinearLayout systemui:orientation="vertical" systemui:layout_width="match_parent" systemui:layout_height="wrap_content">
+                <include systemui:layout_width="match_parent" systemui:layout_height="wrap_content" systemui:layout_marginLeft="@dimen/notification_side_padding" systemui:layout_marginTop="@dimen/status_bar_header_height_expanded" systemui:layout_marginRight="@dimen/notification_side_padding" layout="@layout/qs_panel_ext" />
+                <View systemui:id="@id/reserve_notification_space" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0b0072" systemui:layout_marginTop="@dimen/notifications_top_padding" />
+                <View systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0b0075" />
+            </LinearLayout>
+        </com.android.systemui.statusbar.phone.ObservableScrollView>
+        <com.android.systemui.statusbar.stack.NotificationStackScrollLayout systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|fill_horizontal|center|fill|start|end" systemui:id="@id/notification_stack_scroller" systemui:layout_width="UNKNOWN_DATA_0x7f0b0038" systemui:layout_height="match_parent" systemui:layout_marginBottom="@dimen/close_handle_underlap" systemui:importantForAccessibility="no" />
+        <ViewStub systemui:id="@id/keyguard_user_switcher" systemui:layout="@layout/keyguard_user_switcher" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <include systemui:visibility="invisible" layout="@layout/keyguard_status_bar" />
+    </com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer>
+    <include systemui:visibility="gone" layout="@layout/keyguard_bottom_area" />
+    <include layout="@layout/status_bar_expanded_header" />
+    <com.android.systemui.statusbar.AlphaOptimizedView systemui:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:id="@id/qs_navbar_scrim" systemui:background="@drawable/qs_navbar_scrim" systemui:visibility="invisible" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x6001" />
+</com.android.systemui.statusbar.phone.NotificationPanelView>

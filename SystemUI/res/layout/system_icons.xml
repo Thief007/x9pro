@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/system_icons" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    <include android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2,5dp" layout="@layout/signal_cluster_view" />
+    <com.android.systemui.BatteryMeterView android:id="@id/battery" android:layout_width="UNKNOWN_DATA_0x4c00021" android:layout_height="UNKNOWN_DATA_0x7400021" android:layout_marginBottom="@dimen/battery_margin_bottom" />
+</LinearLayout>

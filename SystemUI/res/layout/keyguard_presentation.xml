@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" androidprv:id="@id/presentation" androidprv:background="#ff000000" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent">
+    <com.android.keyguard.KeyguardStatusView androidprv:orientation="vertical" androidprv:id="@r$id/clock" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content">
+        <LinearLayout androidprv:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:orientation="vertical" androidprv:focusable="true" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+            <com.mediatek.keyguard.Clock.ClockView androidprv:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:id="@r$id/clock_view" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content">
+                <TextView androidprv:textAppearance="?unknown_attr_ref: 1010041" androidprv:textSize="0x1050067" androidprv:textColor="#ffffffff" androidprv:ellipsize="none" androidprv:id="@r$id/clock_text" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:singleLine="true" androidprv:drawablePadding="2dp" />
+                <TextView androidprv:textSize="@dimen/kg_status_clock_ampm_font_size" androidprv:textColor="#ffffffff" androidprv:ellipsize="none" androidprv:id="@r$id/am_pm" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:singleLine="true" androidprv:layout_alignBaseline="@r$id/clock_text" androidprv:layout_alignBottom="@r$id/clock_text" androidprv:layout_marginStart="4dp" androidprv:layout_toEndOf="@r$id/clock_text" />
+            </com.mediatek.keyguard.Clock.ClockView>
+            <include layout="@layout/keyguard_status_area" />
+            <ImageView androidprv:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:layout_marginTop="10dp" androidprv:src="@drawable/kg_security_lock_normal" />
+        </LinearLayout>
+    </com.android.keyguard.KeyguardStatusView>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.keyguard.VoiceUnlock.KeyguardVoiceUnlockView xmlns:android="http://schemas.android.com/apk/res-auto" androidprv:orientation="vertical" androidprv:id="@r$id/voice_unlock_view" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent" androidprv:contentDescription="@string/voiceunlock_accessibility_voice_unlock" androidprv:layout_maxWidth="@dimen/keyguard_security_width" androidprv:layout_maxHeight="UNKNOWN_DATA_0x7f0b0138">
+    <include androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <FrameLayout androidprv:id="@r$id/keyguard_bouncer_frame" androidprv:layout_width="match_parent" androidprv:layout_height="UNKNOWN_DATA_0x1" androidprv:layout_weight="1.0">
+        <RelativeLayout androidprv:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:id="@id/voice_unlock_area_view" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent">
+            <ImageView androidprv:id="@id/voiceLockMic" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:src="@drawable/mtk_ic_voice_unlock_microphone" androidprv:layout_centerHorizontal="true" androidprv:layout_centerVertical="true" />
+            <ImageView androidprv:id="@r$id/voiceLockWave" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:layout_centerHorizontal="true" androidprv:layout_centerVertical="true" />
+            <ImageView androidprv:id="@r$id/voiceLockCancel" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:src="@drawable/mtk_ic_voice_unlock_cancel" androidprv:layout_toRightOf="@id/voiceLockMic" androidprv:layout_below="@id/voiceLockMic" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include androidprv:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:orientation="vertical" androidprv:id="@r$id/keyguard_selector_fade_container" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+</com.mediatek.keyguard.VoiceUnlock.KeyguardVoiceUnlockView>

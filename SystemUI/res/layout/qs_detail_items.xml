@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSDetailItems xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <LinearLayout android:orientation="vertical" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="0x1020004" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="0x1020006" android:layout_width="UNKNOWN_DATA_0x3801" android:layout_height="UNKNOWN_DATA_0x3801" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailEmpty" android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" />
+    </LinearLayout>
+    <View android:id="@id/min_height_spacer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+</com.android.systemui.qs.QSDetailItems>

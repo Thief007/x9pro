@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#9a000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0">
+    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:id="@id/txt_first_part" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginTop="135dp" android:text="@string/fineos_recents_contexts_first_part" android:layout_centerHorizontal="true" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" />
+    <ImageView android:id="@id/imageview_finger" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="255dp" android:src="@drawable/finger" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="234dp" android:src="@drawable/arrow" android:layout_marginStart="223dp" />
+    <Button android:textSize="18sp" android:textColor="#ffffffff" android:id="@id/recents_guide_dismiss_button" android:background="@drawable/recents_guide_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="93dp" android:text="@string/got_it" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

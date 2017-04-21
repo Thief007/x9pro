@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </array>
+    <array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </array>
+    <array name="batterymeter_color_values">
+        <item>?unknown_ref: 106005a</item>
+        <item>#ffffffff</item>
+    </array>
+    <array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </array>
+    <array name="volume_stream_titles">
+        <item>Voice calls</item>
+        <item>System</item>
+        <item>Notifications</item>
+        <item>Media</item>
+        <item>Alarms</item>
+        <item></item>
+        <item>Bluetooth calls</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="snooze_dismiss_drawables">
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwron</item>
+        <item>@drawable/mtk_ic_alarm_alert_snooze</item>
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwroff</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="snooze_dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>?unknown_ref: 0</item>
+        <item>@string/alarm_alert_snooze_text</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>?unknown_ref: 0</item>
+        <item>@string/description_direction_left</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="dismiss_drawables">
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwron</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="lockscreen_num_pad_klondike">
+        <item>+</item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </array>
+</resources>
