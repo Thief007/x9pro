@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="UNKNOWN_DATA_0x7f0f0009" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/auto_launch" android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+        <Button android:id="@id/clear_activities_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_activities" android:layout_marginStart="-4dp" />
+    </LinearLayout>
+</ScrollView>

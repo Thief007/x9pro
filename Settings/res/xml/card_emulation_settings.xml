@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/nfc_card_emulation">
+    <com.mediatek.nfc.CardEmulationProgressCategory android:title="@string/card_emulation_settings_category_title" android:key="card_emulation_settings_category" />
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/wifi_settings" settings:keywords="@string/keywords_wifi">
+    <com.android.settings.wifi.AccessPointPreference settings:key="dummy" />
+</PreferenceScreen>

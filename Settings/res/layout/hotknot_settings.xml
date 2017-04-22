@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="UNKNOWN_DATA_0x10e009d" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hotknot_explained" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/hotknot_explained_description" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hotknot_warning_msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be" />
+        <ImageView android:id="@id/hotknot_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:src="@drawable/hotknot_setting_logo" android:contentDescription="0x0" />
+    </LinearLayout>
+</ScrollView>

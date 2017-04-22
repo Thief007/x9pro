@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <TextView android:textAppearance="@*android:style/TextAppearance.Material.Body1" android:textColor="?unknown_attr_ref: 1010036" android:id="@id/body" android:paddingTop="@dimen/suw_description_margin_top" android:paddingBottom="@dimen/suw_description_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/suw_description_line_spacing_extra" android:paddingStart="@dimen/suw_layout_margin_sides" android:paddingEnd="@dimen/suw_layout_margin_sides" />
+    </ScrollView>
+    <Space android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <FrameLayout android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/storage_menu_unmount" />
+    </FrameLayout>
+</LinearLayout>

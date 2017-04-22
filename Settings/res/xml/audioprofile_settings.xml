@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:persistent="false" settings:title="@string/notification_settings" settings:orderingFromXml="true" settings:keywords="@string/keywords_sounds_and_notifications">
+    <PreferenceCategory settings:title="@string/audio_profile_category_predefine_title" settings:key="predefine" />
+    <com.mediatek.audioprofile.AudioProfilePreference settings:title="@string/general_settings_title" settings:key="mtk_audioprofile_general" settings:summary="@string/ring_summary" />
+    <com.mediatek.audioprofile.AudioProfilePreference settings:title="@string/silent_settings_title" settings:key="mtk_audioprofile_silent" settings:summary="@string/silent_summary" />
+    <com.mediatek.audioprofile.AudioProfilePreference settings:title="@string/meeting_settings_title" settings:key="mtk_audioprofile_meeting" settings:summary="@string/meeting_summary" />
+    <com.mediatek.audioprofile.AudioProfilePreference settings:title="@string/outdoor_settings_title" settings:key="mtk_audioprofile_outdoor" settings:summary="@string/outdoor_summary" />
+    <PreferenceCategory settings:title="@string/audio_profile_others" settings:key="notification" />
+    <PreferenceScreen settings:title="@string/notification_section_header" settings:key="notification_screen" settings:fragment="com.mediatek.audioprofile.AudioProfileNotification" />
+    <PreferenceScreen settings:title="@string/zen_mode_settings_title" settings:key="zen_mode" settings:fragment="com.android.settings.notification.ZenModeSettings" settings:keywords="@string/keywords_sounds_and_notifications_interruptions" />
+    <Preference settings:persistent="false" settings:title="@string/manage_zen_access_title" settings:key="manage_zen_access" settings:fragment="com.android.settings.notification.ZenAccessSettings" />
+    <PreferenceScreen settings:title="@string/sound_enhancement_title" settings:key="sound_enhancement" settings:fragment="com.mediatek.audioprofile.SoundEnhancement" /> />

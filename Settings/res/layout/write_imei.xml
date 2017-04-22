@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/write" android:layout_width="UNKNOWN_DATA_0x7f0c00b6" android:layout_height="match_parent">
+    <EditText android:id="@id/imei1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/imei1" android:singleLine="true" android:maxLength="15" android:numeric="integer|signed|decimal" />
+    <EditText android:id="@id/imei2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/imei2" android:singleLine="true" android:maxLength="15" android:numeric="integer|signed|decimal" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:enabled="false" android:id="@id/saveBtn" android:layout_width="UNKNOWN_DATA_0x7f0c00b7" android:layout_height="wrap_content" android:text="@string/saveBtn" />
+        <Button android:id="@id/cancelBtn" android:layout_width="UNKNOWN_DATA_0x7f0c00b7" android:layout_height="wrap_content" android:text="@string/cancelBtn" />
+    </LinearLayout>
+</LinearLayout>

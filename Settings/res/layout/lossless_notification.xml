@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/prv/res/android" internal:id="@id/status_bar_latest_event_content" internal:layout_width="match_parent" internal:layout_height="UNKNOWN_DATA_0x4001">
+    <ImageView internal:id="@id/icon" internal:layout_width="UNKNOWN_DATA_0x4001" internal:layout_height="UNKNOWN_DATA_0x4001" internal:src="@soundenhancement/LOSSLESS_ICON_ID" internal:scaleType="center" />
+    <LinearLayout internal:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:layout_width="match_parent" internal:layout_height="match_parent"
+        <LinearLayout internal:gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:orientation="vertical" internal:paddingTop="2dp" internal:paddingBottom="2dp" internal:layout_width="wrap_content" internal:layout_height="wrap_content" internal:minHeight="64dp" internal:layout_weight="3.0" internal:paddingEnd="8dp" internal:layout_marginStart="64dp"
+            <LinearLayout internal:orientation="horizontal" internal:id="@id/line1" internal:paddingTop="6dp" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:layout_marginStart="8dp">
+                <TextView internal:textSize="18dp" internal:textStyle="bold" internal:textColor="#ff000000" internal:ellipsize="end" internal:id="@id/title" internal:fadingEdge="horizontal" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:text="@string/lossless_title" internal:singleLine="true" internal:layout_weight="1.0" internal:fontFamily="sans-serif-light" />
+            </LinearLayout>
+            <LinearLayout internal:gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:orientation="horizontal" internal:id="@id/line2" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:layout_marginStart="8dp">
+                <TextView internal:textSize="14dp" internal:textColor="#ff999999" internal:ellipsize="end" internal:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" internal:id="@id/text" internal:fadingEdge="horizontal" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:text="@string/lossless_playing" internal:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

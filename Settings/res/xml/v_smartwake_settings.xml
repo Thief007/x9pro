@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/smartwake_settings_category">
+    <PreferenceCategory android:persistent="false" android:title="@string/smartwake_support_gestures" android:key="smartwake_support_gestures">
+        <CheckBoxPreference android:title="@string/smartwake_settings_u_title" android:key="smartwake_settings_u" />
+        <CheckBoxPreference android:title="@string/smartwake_settings_up_title" android:key="smartwake_settings_up" />
+        <CheckBoxPreference android:title="@string/smartwake_settings_down_title" android:key="smartwake_settings_down" />
+        <CheckBoxPreference android:title="@string/smartwake_settings_right_title" android:key="smartwake_settings_right" />
+        <CheckBoxPreference android:title="@string/smartwake_settings_left_title" android:key="smartwake_settings_left" />
+        <com.v.smartwake.CustomizedSwitchPreference android:title="@string/smartwake_settings_c_title" android:key="smartwake_settings_c" />
+        <com.v.smartwake.CustomizedSwitchPreference android:title="@string/smartwake_settings_e_title" android:key="smartwake_settings_e" />
+        <com.v.smartwake.CustomizedSwitchPreference android:title="@string/smartwake_settings_w_title" android:key="smartwake_settings_w" />
+        <com.v.smartwake.CustomizedSwitchPreference android:title="@string/smartwake_settings_m_title" android:key="smartwake_settings_m" />
+        <com.v.smartwake.CustomizedSwitchPreference android:title="@string/smartwake_settings_o_title" android:key="smartwake_settings_o" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/all_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be"
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingTop="5dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/app_snippet" layout="@layout/app_item" />
+        <Space android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" />
+        <include android:id="@id/control_buttons_panel" layout="@layout/two_buttons_panel" />
+    </LinearLayout>
+</LinearLayout>

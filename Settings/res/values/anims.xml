@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="confirm_credential_close_enter">res/anim/confirm_credential_close_enter.xml</anim>
+    <anim name="confirm_credential_close_exit">res/anim/confirm_credential_close_exit.xml</anim>
+    <anim name="confirm_credential_open_enter">res/anim/confirm_credential_open_enter.xml</anim>
+    <anim name="confirm_credential_open_exit">res/anim/confirm_credential_open_exit.xml</anim>
+    <anim name="enrollment_fingerprint_isolated_ridge_1_path_animation">res/anim/enrollment_fingerprint_isolated_ridge_1_path_animation.xml</anim>
+    <anim name="enrollment_fingerprint_isolated_ridge_2_path_animation">res/anim/enrollment_fingerprint_isolated_ridge_2_path_animation.xml</anim>
+    <anim name="enrollment_fingerprint_isolated_ridge_5_path_animation">res/anim/enrollment_fingerprint_isolated_ridge_5_path_animation.xml</anim>
+    <anim name="enrollment_fingerprint_isolated_ridge_6_path_animation">res/anim/enrollment_fingerprint_isolated_ridge_6_path_animation.xml</anim>
+    <anim name="enrollment_fingerprint_isolated_ridge_7_path_animation">res/anim/enrollment_fingerprint_isolated_ridge_7_path_animation.xml</anim>
+    <anim name="fab_elevation">res/anim/fab_elevation.xml</anim>
+    <anim name="suw_slide_back_in">res/anim/suw_slide_back_in.xml</anim>
+    <anim name="suw_slide_back_in">res/anim-ldrtl/suw_slide_back_in.xml</anim>
+    <anim name="suw_slide_back_out">res/anim/suw_slide_back_out.xml</anim>
+    <anim name="suw_slide_back_out">res/anim-ldrtl/suw_slide_back_out.xml</anim>
+    <anim name="suw_slide_next_in">res/anim/suw_slide_next_in.xml</anim>
+    <anim name="suw_slide_next_in">res/anim-ldrtl/suw_slide_next_in.xml</anim>
+    <anim name="suw_slide_next_out">res/anim/suw_slide_next_out.xml</anim>
+    <anim name="suw_slide_next_out">res/anim-ldrtl/suw_slide_next_out.xml</anim>
+    <anim name="v_gesture_help_dance">res/anim/v_gesture_help_dance.xml</anim>
+    <anim name="v_otouchpad_help_camera_anim">res/anim/v_otouchpad_help_camera_anim.xml</anim>
+</resources>

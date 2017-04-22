@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" apk:oneshot="false">
+    <item apk:duration="500" apk:drawable="@drawable/v_otouchpad_anim_camera_1" />
+    <item apk:duration="100" apk:drawable="@drawable/v_otouchpad_anim_camera_2" />
+    <item apk:duration="500" apk:drawable="@drawable/v_otouchpad_anim_camera_3" />
+</animation-list>

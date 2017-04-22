@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory settings:persistent="false" settings:title="@string/wifi_tether_setting_title" />
+    <ListPreference settings:persistent="false" settings:entries="@array/wifi_hotspot_disable_policy_entries" settings:title="@string/wifi_tether_auto_disable_title" settings:key="wifi_auto_disable" settings:entryValues="@array/wifi_hotspot_disable_policy_values" />
+    <Preference settings:persistent="false" settings:title="@string/wifi_tether_configure_ap_text" settings:key="wifi_ap_ssid_and_security" />
+    <Preference settings:persistent="false" settings:title="@string/wifi_tether_wps_connect_title" settings:key="wps_connect" settings:summary="@string/wifi_tether_wps_connect_summary" />
+    <Preference settings:persistent="false" settings:title="@string/wifi_ap_bandwidth_title" settings:key="bandwidth_usage" settings:fragment="com.mediatek.wifi.hotspot.BandwidthUsage" />
+    <PreferenceCategory settings:persistent="false" settings:title="@string/wifi_ap_connected_title" settings:key="connected_category" />
+    <PreferenceCategory settings:persistent="false" settings:title="@string/wifi_ap_blocked_title" settings:key="blocked_category" />
+</PreferenceScreen>

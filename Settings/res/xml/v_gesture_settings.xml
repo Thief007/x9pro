@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/gesture_settings_category">
+    <PreferenceCategory android:persistent="false" android:title="@string/gesture_settings_help" android:key="gesture_settings_help">
+        <PreferenceScreen android:title="@string/gesture_settings_learn_action" android:key="gesture_settings_learn_action" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/gesture_support_apps" android:key="gesture_support_apps">
+        <CheckBoxPreference android:title="@string/gesture_settings_mms_title" android:key="gesture_settings_mms" android:summary="@string/gesture_settings_mms_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_gallery_title" android:key="gesture_settings_gallery" android:summary="@string/gesture_settings_gallery_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_camera_title" android:key="gesture_settings_camera" android:summary="@string/gesture_settings_camera_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_music_title" android:key="gesture_settings_music" android:summary="@string/gesture_settings_music_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_launcher_title" android:key="gesture_settings_launcher" android:summary="@string/gesture_settings_launcher_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_browser_title" android:key="gesture_settings_browser" android:summary="@string/gesture_settings_browser_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_contacts_title" android:key="gesture_settings_contacts" android:summary="@string/gesture_settings_contacts_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_phone_title" android:key="gesture_settings_phone" android:summary="@string/gesture_settings_phone_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_mute_title" android:key="gesture_settings_mute" android:summary="@string/gesture_settings_mute_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_keyguard_title" android:key="gesture_settings_keyguard" android:summary="@string/gesture_settings_keyguard_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_fmradio_title" android:key="gesture_settings_fmradio" android:summary="@string/gesture_settings_fmradio_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_clock_title" android:key="gesture_settings_clock" android:summary="@string/gesture_settings_clock_summary" />
+        <CheckBoxPreference android:title="@string/gesture_settings_contacts_phone_title" android:key="gesture_settings_contacts_phone" android:summary="@string/gesture_settings_contacts_phone_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

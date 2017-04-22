@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/float_window_setting">
+    <PreferenceCategory android:persistent="false" android:title="@string/float_window_one" android:key="float_window_one">
+        <Preference android:icon="@drawable/float_window_top_left" android:key="top_one" />
+        <Preference android:icon="@drawable/float_window_top_right" android:key="left_one" />
+        <Preference android:icon="@drawable/float_window_bottom_left" android:key="right_one" />
+        <Preference android:icon="@drawable/float_window_bottom_right" android:key="bottom_one" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/float_window_two" android:key="float_window_two">
+        <PreferenceScreen android:icon="@drawable/float_window_top_left" android:key="top_two" />
+        <PreferenceScreen android:icon="@drawable/float_window_top_right" android:key="left_two" />
+        <PreferenceScreen android:icon="@drawable/float_window_bottom_left" android:key="right_two" />
+        <PreferenceScreen android:icon="@drawable/float_window_bottom_right" android:key="bottom_two" />
+    </PreferenceCategory> />

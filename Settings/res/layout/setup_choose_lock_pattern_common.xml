@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout xmlns:android="http://schemas.android.com/apk/res-auto" settings:layout_width="match_parent" settings:layout_height="match_parent" settings:suwBackgroundTile="@drawable/setup_illustration_tile" settings:suwHeaderText="@string/wifi_setup_wizard_title" settings:suwIllustrationHorizontalTile="@drawable/setup_illustration_horizontal_tile" settings:suwIllustrationImage="@drawable/setup_illustration_lock_screen">
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient settings:orientation="vertical" settings:id="@id/topLayout" settings:layout_width="match_parent" settings:layout_height="match_parent" style="@style/SuwContentFrame">
+        <LinearLayout settings:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" settings:orientation="vertical" settings:layout_width="match_parent" settings:layout_height="UNKNOWN_DATA_0x1" settings:layout_weight="1.0">
+            <TextView settings:textSize="18sp" settings:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" settings:id="@id/headerText" settings:layout_width="match_parent" settings:layout_height="UNKNOWN_DATA_0x1" settings:minHeight="50dp" settings:layout_weight="1.0" />
+            <Button settings:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" settings:id="@id/retryButton" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:text="@string/lockpattern_retry_button_text" style="@*style/Widget.Material.Button.Borderless.Colored" />
+            <com.android.internal.widget.LockPatternView settings:id="@id/lockPattern" settings:background="@color/lock_pattern_background" settings:layout_width="match_parent" settings:layout_height="UNKNOWN_DATA_0x1" settings:layout_weight="4.0" />
+        </LinearLayout>
+        <TextView settings:textSize="14sp" settings:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" settings:id="@id/footerText" settings:visibility="gone" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:minHeight="50dp" />
+        <LinearLayout settings:orientation="horizontal" settings:visibility="gone" settings:layout_width="match_parent" settings:layout_height="wrap_content" style="@style/SecurityPreferenceButtonContainer">
+            <Button settings:id="@id/footerLeftButton" settings:layout_width="UNKNOWN_DATA_0x1" settings:layout_height="wrap_content" settings:text="@string/lockpattern_tutorial_cancel_label" settings:layout_weight="1.0" style="@style/SecurityPreferenceButton" />
+            <Button settings:id="@id/footerRightButton" settings:layout_width="UNKNOWN_DATA_0x1" settings:layout_height="wrap_content" settings:text="@string/lockpattern_tutorial_continue_label" settings:layout_weight="1.0" style="@style/SecurityPreferenceButton" />
+        </LinearLayout>
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</com.android.setupwizardlib.SetupWizardLayout>

@@ -1,0 +1,12 @@
+package com.mediatek.settings.ext;
+
+import android.content.Context;
+import android.preference.Preference;
+
+public class DefaultDevExt implements IDevExt {
+    public DefaultDevExt(Context context) {
+    }
+
+    public void customUSBPreference(Preference pref) {
+    }
+}

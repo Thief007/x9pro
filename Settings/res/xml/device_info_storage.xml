@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/storage_settings" settings:keywords="@string/keywords_storage">
+    <PreferenceCategory settings:title="@string/select_memory" settings:key="default_write_disk" />
+    <PreferenceCategory settings:title="@string/storage_internal_title" settings:key="storage_internal" />
+    <PreferenceCategory settings:title="@string/storage_external_title" settings:key="storage_external" />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="28sp" android:id="@id/passwordEntry" android:padding="4sp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textUri|textEmailSubject|textLongMessage|textPostalAddress|textVisiblePassword|textFilter|textWebEmailAddress|number|numberSigned|numberDecimal|numberPassword|phone|date" android:textDirection="locale" style="@style/TextAppearance.CryptKeeper_PasswordEntry" />
+    <include layout="@layout/crypt_keeper_switch_input_method" />
+</merge>

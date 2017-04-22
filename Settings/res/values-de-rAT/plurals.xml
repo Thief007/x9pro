@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Sie sind nun noch %1$d Schritte vom Entwicklerstatus entfernt.</item>
+        <item quantity="one">Noch %1$d Schritt zum Entwicklerstatus.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d Fingerabdrücke eingerichtet</item>
+        <item quantity="one">%1$d Fingerabdruck eingerichtet</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Kennwort muss mindestens %d Buchstaben enthalten.</item>
+        <item quantity="one">Kennwort muss mindestens 1 Buchstaben enthalten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Kennwort muss mindestens %d Kleinbuchstaben enthalten.</item>
+        <item quantity="one">Kennwort muss mindestens 1 Kleinbuchstaben enthalten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Kennwort muss mindestens %d Großbuchstaben enthalten.</item>
+        <item quantity="one">Kennwort muss mindestens 1 Großbuchstaben enthalten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Kennwort muss mindestens %d Ziffern enthalten.</item>
+        <item quantity="one">Kennwort muss mindestens 1 Ziffer enthalten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Kennwort muss mindestens %d Sonderzeichen enthalten.</item>
+        <item quantity="one">Kennwort muss mindestens 1 Sonderzeichen enthalten.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Kennwort muss mindestens %d Zeichen enthalten, die keine Buchstaben sind.</item>
+        <item quantity="one">Kennwort muss mindestens 1 Zeichen enthalten, das kein Buchstabe ist.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Falscher SIM-PIN-Code, Sie haben %d weitere Versuche.</item>
+        <item quantity="one">Falscher SIM-PIN-Code, Sie haben %d weitere Versuche, bevor Sie den Anbieter kontaktieren müssen, damit Ihr Gerät wieder entsperrt wird.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d Apps können Benachrichtigungen lesen</item>
+        <item quantity="one">%d App kann Benachrichtigungen lesen</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Ändern in Alarme nur für %1$d Minuten (bis %2$s)</item>
+        <item quantity="one">Ändern in Alarme nur für eine Minute bis %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Ändern in Alarme nur für %1$d Stunden bis %2$s</item>
+        <item quantity="one">Ändern in Alarme nur für eine Stunde bis %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d Berechtigungen erteilt</item>
+        <item quantity="one">%d Berechtigung erteilt</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d von %2$d Berechtigungen erteilt</item>
+        <item quantity="one">%1$d von %2$d Berechtigung erteilt</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d zusätzliche Berechtigungen</item>
+        <item quantity="one">%d zusätzliche Berechtigung</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d Apps können ihre unterstützten Links öffnen</item>
+        <item quantity="zero">Keine App kann einen unterstützten Link öffnen</item>
+        <item quantity="one">Eine App kann ihre unterstützten Links öffnen</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d Apps ist es gestattet, Batterie-Optimierungen zu ignorieren</item>
+        <item quantity="one">1 App ist es erlaubt, Batterie-Optimierungen zu ignorieren</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d Apps haben Speicher in den letzten %2$s verwendet</item>
+        <item quantity="one">1 App hat Speicher in den letzten %2$s verwendet</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@r$id/suw_layout_decor" android:background="@drawable/suw_layout_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/suw_title_area_elevation">
+        <TextView android:id="@r$id/suw_layout_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SuwHeaderTitle" />
+    </FrameLayout>
+    <include layout="@layout/suw_progress_bar_stub" />
+    <FrameLayout android:id="@r$id/suw_layout_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <com.android.setupwizardlib.view.NavigationBar android:id="@r$id/suw_layout_navigation_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0c0027" style="@style/SuwNavBarTheme" />
+</LinearLayout>

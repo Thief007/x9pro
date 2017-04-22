@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="6dp">
+    <ImageView android:id="@id/transfer_icon" android:layout_width="UNKNOWN_DATA_0x1050000" android:layout_height="UNKNOWN_DATA_0x1050000" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_marginEnd="11dp" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="marquee" android:id="@id/transfer_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_toEndOf="@id/transfer_icon" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/modified_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/transfer_file" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/transfer_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/transfer_file" android:layout_toStartOf="@id/modified_date" android:layout_toEndOf="@id/transfer_icon" />
+</RelativeLayout>

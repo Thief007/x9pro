@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/privacy_settings_title"
+    <PreferenceScreen settings:persistent="false" settings:title="@string/backup_data_title" settings:key="backup_data" settings:fragment="com.android.settings.backup.ToggleBackupSettingFragment" />
+    <PreferenceScreen settings:persistent="false" settings:title="@string/backup_configure_account_title" settings:key="configure_account">
+        <intent settings:action="dummy" />
+    </PreferenceScreen>
+    <SwitchPreference settings:persistent="false" settings:title="@string/auto_restore_title" settings:key="auto_restore" settings:summary="@string/auto_restore_summary" />
+    <Preference settings:persistent="false" settings:enabled="false" settings:title="@string/backup_inactive_title" settings:selectable="false" settings:key="backup_inactive" />
+    <PreferenceScreen settings:title="@string/reset_network_title" settings:key="network_reset" settings:fragment="com.android.settings.ResetNetwork" settings:keywords="@string/keywords_network_reset" />
+    <PreferenceScreen settings:title="@string/drm_settings_title" settings:key="drm_settings" settings:summary="@string/drm_settings_summary" settings:fragment="com.mediatek.settings.DrmSettings" />
+    <PreferenceScreen settings:title="@string/master_clear_title" settings:key="factory_reset" settings:fragment="com.android.settings.MasterClear" settings:keywords="@string/keywords_factory_data_reset" /> />

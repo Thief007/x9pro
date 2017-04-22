@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="enrollment_fingerprint_isolated_animation_interpolator_0">res/interpolator/enrollment_fingerprint_isolated_animation_interpolator_0.xml</interpolator>
+    <interpolator name="enrollment_fingerprint_isolated_animation_interpolator_1">res/interpolator/enrollment_fingerprint_isolated_animation_interpolator_1.xml</interpolator>
+    <interpolator name="enrollment_fingerprint_isolated_animation_interpolator_2">res/interpolator/enrollment_fingerprint_isolated_animation_interpolator_2.xml</interpolator>
+</resources>

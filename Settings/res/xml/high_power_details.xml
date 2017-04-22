@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/high_power_apps">
+    <SwitchPreference settings:title="@string/high_power_apps" settings:key="high_power_switch" settings:summary="@string/high_power_desc" />
+</PreferenceScreen>

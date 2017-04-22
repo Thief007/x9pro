@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/screen_pinning_title">
+    <SwitchPreference android:persistent="false" android:title="@string/screen_pinning_unlock_none" android:key="use_screen_lock" />
+</PreferenceScreen>

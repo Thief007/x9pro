@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout xmlns:android="http://schemas.android.com/apk/res-auto" settings:id="@id/setup_wizard_layout" settings:layout_width="match_parent" settings:layout_height="match_parent" settings:suwBackgroundTile="@drawable/setup_illustration_tile" settings:suwHeaderText="@string/encryption_interstitial_header" settings:suwIllustrationHorizontalTile="@drawable/setup_illustration_horizontal_tile" settings:suwIllustrationImage="@drawable/setup_illustration_lock_screen">
+    <LinearLayout settings:orientation="vertical" settings:layout_width="match_parent" settings:layout_height="match_parent" style="@style/SuwContentFrame">
+        <TextView settings:id="@id/encryption_message" settings:layout_width="match_parent" settings:layout_height="wrap_content" style="@style/SuwDescription" />
+        <RadioGroup settings:layout_width="match_parent" settings:layout_height="wrap_content" settings:layout_marginTop="16dp" settings:checkedButton="@id/encrypt_require_password">
+            <RadioButton settings:id="@id/encrypt_require_password" settings:layout_width="match_parent" settings:layout_height="wrap_content" style="@style/SuwRadioButton" />
+            <RadioButton settings:id="@id/encrypt_dont_require_password" settings:layout_width="match_parent" settings:layout_height="wrap_content" style="@style/SuwRadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

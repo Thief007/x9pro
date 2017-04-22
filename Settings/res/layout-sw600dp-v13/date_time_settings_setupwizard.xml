@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/layout_root" android:paddingTop="96dp" android:paddingBottom="96dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="40dp" android:paddingEnd="40dp">
+    <FrameLayout android:id="@id/timezone_dropdown_anchor" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0">
+        <fragment android:id="@id/date_time_settings_fragment" android:layout_width="match_parent" android:layout_height="match_parent" class="com.android.settings.DateTimeSettings" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <View android:id="@id/bottom_divider" android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x301" android:layout_marginTop="0dp" android:layout_marginBottom="16dp" android:layout_above="@id/next_button" />
+        <Button android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginTop="10dp" android:minWidth="208dp" android:text="@string/next_label" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/otouchpad_settings_category">
+    <PreferenceCategory android:persistent="false" android:title="@string/otouchpad_settings_custom_category_title" android:key="otouchpad_settings_help">
+        <CheckBoxPreference android:title="@string/otouchpad_settings_custom_app_switch_title" android:key="otouchpad_settings_custom_app_switch" />
+        <PreferenceScreen android:title="@string/otouchpad_settings_custom_app_action" android:key="otouchpad_settings_custom_app_name" android:summary="@string/otouchpad_settings_custom_app_summary" android:dependency="otouchpad_settings_custom_app_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/otouchpad_settings_otouchpad_switch_category_title" android:key="otouchpad_settings_otouchpad_switch_category">
+        <CheckBoxPreference android:title="@string/otouchpad_settings_up_douwn_left_right_title" android:key="otouchpad_settings_up_down_left_right" android:summary="@string/otouchpad_settings_up_douwn_left_right_summary" />
+        <CheckBoxPreference android:title="@string/otouchpad_settings_unlock_title" android:key="otouchpad_settings_unlock" android:summary="@string/otouchpad_settings_unlock_summary" />
+        <CheckBoxPreference android:title="@string/otouchpad_settings_camera_mood_album_title" android:key="otouchpad_settings_camera_mood_album" android:summary="@string/otouchpad_settings_camera_mood_album_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:id="@id/enable_throttling" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?unknown_attr_ref: 1010214" android:showDividers="middle|end" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_bandwidth_chart_title" style="?unknown_attr_ref: 1010040" />
+        <include layout="@layout/wifi_ap_bandwidth_usage_chart" />
+        <TextView android:paddingLeft="8dp" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/wifi_ap_bandwidth_chart_summary" style="?unknown_attr_ref: 1010042" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/wifi_ap_title" style="?unknown_attr_ref: 1010208" />
+        <LinearLayout android:orientation="vertical" android:id="@id/time" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?unknown_attr_ref: 1010214" android:showDividers="middle|end" />
+        <LinearLayout android:id="@id/data" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+</ScrollView>

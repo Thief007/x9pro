@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/switch_status_low_battery" android:key="low_battery_warning" android:summary="@string/switch_status_low_battery_summary" />
+    <SwitchPreference android:title="@string/switch_status_charging_battery" android:key="battery_charging_light" android:summary="@string/switch_status_charging_battery_summary" />
+    <SwitchPreference android:title="@string/switch_status_miss_event" android:key="light_miss_mmsandcall" android:summary="@string/switch_status_miss_event_summary" />
+</PreferenceScreen>

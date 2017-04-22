@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/wifi_settings_category">
+    <Preference settings:persistent="false" settings:title="@string/wifi_add_network" settings:key="add_network" />
+    <PreferenceCategory settings:title="@string/data_conn_category_title" settings:key="data_enabler_category">
+        <CheckBoxPreference settings:persistent="false" settings:title="@string/data_enabler_title" settings:key="data_enabler" settings:summary="@string/data_enabler_summary" />
+        <Preference settings:persistent="false" settings:title="@string/data_enabler_title" settings:key="data_enabler_gemini" settings:summary="@string/data_enabler_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/apn_list_category_title" settings:key="apn_list" />
+</PreferenceScreen>

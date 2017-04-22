@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@id/rule_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginRight="22dp" android:hint="@string/zen_mode_rule_name_hint" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:textDirection="locale">
+        <requestFocus />
+    </EditText>
+    <TextView android:textColor="@color/zen_rule_name_warning" android:id="@id/rule_name_warning" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:layout_marginRight="26dp" android:text="@string/zen_mode_rule_name_warning" android:singleLine="true" />
+    <RadioGroup android:orientation="vertical" android:id="@id/rule_types" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginRight="22dp" android:checkedButton="@id/rule_type_schedule">
+        <RadioButton android:id="@id/rule_type_schedule" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/zen_schedule_rule_type_name" />
+        <RadioButton android:id="@id/rule_type_event" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/zen_event_rule_type_name" />
+        <RadioButton android:id="@id/rule_type_3" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RadioButton android:id="@id/rule_type_4" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RadioButton android:id="@id/rule_type_5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </RadioGroup>
+</LinearLayout>

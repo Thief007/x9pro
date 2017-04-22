@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+    <Button android:textSize="14sp" android:textColor="#ffffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" style="?unknown_attr_ref: 101032b" />
+</LinearLayout>

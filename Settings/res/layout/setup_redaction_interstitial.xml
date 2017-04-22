@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout xmlns:android="http://schemas.android.com/apk/res-auto" settings:id="@id/setup_wizard_layout" settings:layout_width="match_parent" settings:layout_height="match_parent" settings:suwBackgroundTile="@drawable/setup_illustration_tile" settings:suwHeaderText="@string/lock_screen_notifications_interstitial_title" settings:suwIllustrationHorizontalTile="@drawable/setup_illustration_horizontal_tile" settings:suwIllustrationImage="@drawable/setup_illustration_lock_screen">
+    <LinearLayout settings:orientation="vertical" settings:layout_width="match_parent" settings:layout_height="match_parent" settings:paddingStart="?attr/side_margin" settings:paddingEnd="?attr/side_margin" style="@style/SuwContentFrame">
+        <TextView settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:text="@string/lock_screen_notifications_interstitial_message" settings:layout_marginStart="?unknown_attr_ref: 10103bd" settings:layout_marginEnd="?unknown_attr_ref: 10103be" style="@style/SuwDescription" />
+        <RadioGroup settings:id="@id/radio_group" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:layout_marginTop="@dimen/redaction_vertical_margins" settings:checkedButton="@id/redact_sensitive" settings:layout_marginStart="?unknown_attr_ref: 10103bd" settings:layout_marginEnd="?unknown_attr_ref: 10103be">
+            <RadioButton settings:id="@id/show_all" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:text="@string/lock_screen_notifications_summary_show" style="@style/SuwRadioButton" />
+            <RadioButton settings:id="@id/redact_sensitive" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:text="@string/lock_screen_notifications_summary_hide" style="@style/SuwRadioButton" />
+            <RadioButton settings:id="@id/hide_all" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:text="@string/lock_screen_notifications_summary_disable" style="@style/SuwRadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

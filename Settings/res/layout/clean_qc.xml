@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="17dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/clean_qc_string" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/resetBtn" android:layout_width="UNKNOWN_DATA_0x7f0c00b7" android:layout_height="wrap_content" android:text="@string/resetBtn" />
+    </LinearLayout>
+</LinearLayout>

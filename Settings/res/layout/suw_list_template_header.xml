@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.android.setupwizardlib.view.StickyHeaderListView app:id="0x102000a" app:clipChildren="false" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" app:suwHeader="@layout/suw_list_header" />
+    <com.android.setupwizardlib.view.NavigationBar app:id="@r$id/suw_layout_navigation_bar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0c0027" style="@style/SuwNavBarTheme" />
+</LinearLayout>

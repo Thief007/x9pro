@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/LinearLayout1" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:orientation="horizontal" android:background="@color/gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2401">
+                <LinearLayout android:id="@id/ma_app_lock_back" android:layout_width="wrap_content" android:layout_height="match_parent" android:onClick="onClick">
+                    <ImageView android:background="@drawable/ic_ma_back" android:layout_width="UNKNOWN_DATA_0x1501" android:layout_height="match_parent" android:layout_marginLeft="4dp" />
+                    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/ma_settings" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+                <TextView android:textColor="@color/btn_gray_pressed" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:text="@string/applock_app_name" />
+                <TextView android:background="@color/btn_gray_normal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4101">
+                <RelativeLayout android:id="@id/rl_switch_notification" android:background="@drawable/btn_bottom_selector" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_Start" android:background="@drawable/preferences_item_sector" android:paddingLeft="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/setting_lock" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/img_open" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/on" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/applock_pass_label" />
+                    <CheckBox android:id="@id/cb_lockState" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:id="@id/textview1" android:background="#ffe6e6e6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textColor="@color/btn_gray_pressed" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:text="@string/app_list" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:background="#ffe6e6e6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/load_in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150dp" style="?unknown_attr_ref: 101007a" />
+            <com.android.settings.applock.NoScrollListView android:id="@id/listView_apps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:divider="#ffe6e6e6" android:dividerHeight="1dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

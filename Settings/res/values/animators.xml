@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="suw_slide_back_in">res/animator-v11/suw_slide_back_in.xml</animator>
+    <animator name="suw_slide_back_in">res/animator-ldrtl-v11/suw_slide_back_in.xml</animator>
+    <animator name="suw_slide_back_out">res/animator-v11/suw_slide_back_out.xml</animator>
+    <animator name="suw_slide_back_out">res/animator-ldrtl-v11/suw_slide_back_out.xml</animator>
+    <animator name="suw_slide_next_in">res/animator-v11/suw_slide_next_in.xml</animator>
+    <animator name="suw_slide_next_in">res/animator-ldrtl-v11/suw_slide_next_in.xml</animator>
+    <animator name="suw_slide_next_out">res/animator-v11/suw_slide_next_out.xml</animator>
+    <animator name="suw_slide_next_out">res/animator-ldrtl-v11/suw_slide_next_out.xml</animator>
+</resources>

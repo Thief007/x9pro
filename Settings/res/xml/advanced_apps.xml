@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:key="applications_settings"
+    <PreferenceScreen settings:title="@string/app_permissions" settings:key="manage_perms" settings:keywords="@string/keywords_app_permissions" />
+    <PreferenceScreen settings:title="@string/domain_urls_title" settings:key="domain_urls" settings:fragment="com.android.settings.applications.ManageApplications">
+        <extra settings:name="classname" settings:value="com.android.settings.Settings$DomainsURLsAppListActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory settings:title="@string/advanced_apps" />
+    <PreferenceScreen settings:title="@string/default_apps_title" settings:key="default_apps" settings:fragment="com.android.settings.applications.ManageDefaultApps" settings:keywords="@string/keywords_default_apps" />
+    <PreferenceScreen settings:title="@string/system_alert_window_settings" settings:key="system_alert_window" settings:fragment="com.android.settings.applications.ManageApplications" settings:keywords="@string/keywords_system_alert_window">
+        <extra settings:name="classname" settings:value="com.android.settings.Settings$OverlaySettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen settings:title="@string/write_settings" settings:key="write_settings_apps" settings:fragment="com.android.settings.applications.ManageApplications" settings:keywords="@string/keywords_write_settings">
+        <extra settings:name="classname" settings:value="com.android.settings.Settings$WriteSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen settings:title="@string/high_power_apps" settings:key="high_power_apps" settings:fragment="com.android.settings.applications.ManageApplications" settings:keywords="@string/keywords_ignore_optimizations">
+        <extra settings:name="classname" settings:value="com.android.settings.Settings$HighPowerApplicationsActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

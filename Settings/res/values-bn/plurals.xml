@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">আপনি এখন ডেভেলপার হওয়া থেকে %1$d ধাপ পেছনে আছেন।</item>
+        <item quantity="one">আপনি এখন %1$d ধাপ দূরে একজন ডেভেলপার হওয়া থেকে।</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d আঙুলের ছাপ সেট আপ</item>
+        <item quantity="one">%1$d আঙুলের ছাপ সেট আপ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বর্ণ থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">পাসওয়ার্ডে অবশ্যই অন্তত %d ছোট হাতের অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি ছোট হাতের অক্ষর থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">পাসওয়ার্ডে অবশ্যই অন্তত %d বড় হাতের অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বড় হাতের অক্ষর থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d সংখ্যাবাচক অংক থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি সংখ্যাবাচক অংক থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d বিশেষ প্রতীক থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বিশেষ প্রতীক থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d বর্ণবর্হিভূত ক্যারেক্টার থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বর্ণবর্হিভূত ক্যারেক্টার থাকতে হবে</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ভুল SIM PIN কোড, আপনার কাছে আর %dটি প্রচেষ্টা বাকি রয়েছে৷</item>
+        <item quantity="one">ভুল SIM PIN কোড, আপনার কাছে আর %dটি প্রচেষ্টা বাকি রয়েছে, তার পরে আপনার ডিভাইসটি আনলক করতে আপনাকে অবশ্যই আপনার ক্যারিয়ারের সাথে যোগাযোগ করতে হবে৷</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d অ্যাপ নোটিফিকেশন পাঠ করতে পারে।</item>
+        <item quantity="one">%d অ্যাপ নোটিফিকেশন পাঠ করতে পারে।</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">অ্যালার্মে পরিবর্তন করুন কেবল %1$d মিনিটের জন্য (যতক্ষণ না %2$s)</item>
+        <item quantity="one">অ্যালার্মে পরিবর্তন করুন কেবল এক মিনিটের জন্য %2$s পর্যন্ত</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">অ্যালার্মে পরিবর্তন করুন কেবল %1$d ঘন্টার জন্য %2$s পর্যন্ত</item>
+        <item quantity="one">অ্যালার্মে পরিবর্তন করুন কেবল এক ঘন্টার জন্য %2$s পর্যন্ত</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d অনুমতি দেয়া হয়েছে</item>
+        <item quantity="one">%d অনুমতি দেয়া হয়েছে</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$dএর%2$d অনুমতি দেয়া হয়েছে</item>
+        <item quantity="one">%1$dএর %2$d অনুমতি দেয়া হয়েছে</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d অতিরিক্ত অনুমতি</item>
+        <item quantity="one">%d অতিরিক্ত অনুমতি</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d অ্যাপ তাদের সমর্থিত লিঙ্ক খুলতে পারবে</item>
+        <item quantity="zero">কোনো অ্যাপ কোনো সমর্থিত লিংক খুলতে পারবে না</item>
+        <item quantity="one">একটি অ্যাপ এর সমর্থিত লিংক খুলতে পারবে</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d apps ব্যাটারি অপটিমাইজেশন এড়াতে অ্যাপকে অনুমতি দেয়া হয়েছে</item>
+        <item quantity="one">১ অ্যাপকে ব্যাটারি অপটিমাইজেশন এড়িয়ে যেতে অনুমতি দেওয়া হয়েছে</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d অ্যাপ শেষ %2$s মেমোরি ব্যবহার করেছে</item>
+        <item quantity="one">১ অ্যাপ শেষ %2$s মেমোরি ব্যবহার করেছে</item>
+    </plurals>
+</resources>

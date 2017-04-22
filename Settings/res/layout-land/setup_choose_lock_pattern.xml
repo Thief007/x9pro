@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout xmlns:android="http://schemas.android.com/apk/res-auto" settings:layout_width="match_parent" settings:layout_height="match_parent" settings:suwBackgroundTile="@drawable/setup_illustration_tile" settings:suwHeaderText="@string/wifi_setup_wizard_title" settings:suwIllustrationHorizontalTile="@drawable/setup_illustration_horizontal_tile" settings:suwIllustrationImage="@drawable/setup_illustration_lock_screen">
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient settings:orientation="horizontal" settings:id="@id/topLayout" settings:clipChildren="false" settings:clipToPadding="false" settings:layout_width="match_parent" settings:layout_height="match_parent" style="@style/SuwContentFrame">
+        <LinearLayout settings:orientation="vertical" settings:layout_width="UNKNOWN_DATA_0x1" settings:layout_height="match_parent" settings:layout_weight="1.0">
+            <TextView settings:textSize="18sp" settings:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" settings:id="@id/headerText" settings:layout_width="match_parent" settings:layout_height="wrap_content" settings:layout_marginTop="16dp" />
+            <Button settings:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" settings:id="@id/retryButton" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:minWidth="0dp" settings:text="@string/lockpattern_retry_button_text" settings:layout_marginStart="-12dp" style="@*style/Widget.Material.Button.Borderless.Colored" />
+            <RelativeLayout settings:visibility="gone" settings:layout_width="match_parent" settings:layout_height="UNKNOWN_DATA_0x1" settings:layout_weight="1.0">
+                <LinearLayout settings:orientation="horizontal" settings:id="@id/buttonContainer" settings:layout_alignParentBottom="true" settings:layout_centerHorizontal="true" style="@style/SecurityPreferenceButtonContainer">
+                    <Button settings:id="@id/footerLeftButton" settings:layout_width="match_parent" settings:layout_height="wrap_content" settings:text="@string/lockpattern_restart_button_text" style="@style/SecurityPreferenceButton" />
+                    <Button settings:id="@id/footerRightButton" settings:layout_width="match_parent" settings:layout_height="wrap_content" settings:text="@string/lockpattern_confirm_button_text" style="@style/SecurityPreferenceButton" />
+                </LinearLayout>
+                <TextView settings:textSize="14sp" settings:id="@id/footerText" settings:visibility="gone" settings:layout_width="wrap_content" settings:layout_height="wrap_content" settings:layout_marginBottom="4dp" settings:layout_above="@id/buttonContainer" settings:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.android.internal.widget.LockPatternView settings:id="@id/lockPattern" settings:background="@color/lock_pattern_background" settings:layout_width="match_parent" settings:layout_height="match_parent" />
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</com.android.setupwizardlib.SetupWizardLayout>

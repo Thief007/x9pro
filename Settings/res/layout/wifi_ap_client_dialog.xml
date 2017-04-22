@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:id="@id/mac_filed" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/wifi_ap_client_mac_label" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/mac_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ip_filed" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/wifi_ap_client_ip_label" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/ip_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

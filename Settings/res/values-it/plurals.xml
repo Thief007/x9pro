@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Ora ti mancano %1$d passi per diventare uno sviluppatore.</item>
+        <item quantity="one">Ora ti mancano %1$d passi per diventare uno sviluppatore</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d fingerprint impostati</item>
+        <item quantity="one">%1$d fingerprint impostato</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">La password deve contenere almeno %d lettere.</item>
+        <item quantity="one">La password deve contenere almeno 1 lettera</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">La password deve contenere almeno %d lettere minuscole.</item>
+        <item quantity="one">La password deve contenere almeno 1 lettera minuscola</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">La password deve contenere almeno %d lettere maiuscole.</item>
+        <item quantity="one">La password deve contenere almeno 1 lettera maiuscola</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">La password deve contenere almeno %d cifre numeriche.</item>
+        <item quantity="one">La password deve contenere almeno 1 numero</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">La password deve contenere almeno %d simboli speciali.</item>
+        <item quantity="one">La password deve contenere almeno 1 simbolo speciale</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">La password deve contenere almeno %d caratteri non costituiti da lettere.</item>
+        <item quantity="one">La password deve contenere almeno 1 carattere non alfabetico</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">PIN errato, hai ancora %d tentativi.</item>
+        <item quantity="one">PIN errato. Hai ancora %d tentativi, dopodichè dovrai contattare il tuo operatore per sbloccare il dispositivo.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Le app%d possono leggere le notifiche</item>
+        <item quantity="one">L&apos;app%d può leggere le notifiche</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Cambia in Solo sveglie per %1$dminuti (da %2$s)</item>
+        <item quantity="one">Cambia in Solo sveglie per un minuto da %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Cambia in Solo sveglie per %1$d ore da %2$s</item>
+        <item quantity="one">Cambia in Solo sveglie per un&apos;ora da %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d autorizzazioni concesse</item>
+        <item quantity="one">%d autorizzazione concessa</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d of %2$d autorizzazioni concesse</item>
+        <item quantity="one">%1$d of %2$d autorizzazione concessa</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d autorizzazioni aggiuntive</item>
+        <item quantity="one">%d autorizzazione aggiuntiva</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d applicazioni possono aprire questi link</item>
+        <item quantity="zero">Nessuna applicazione può aprire questo link</item>
+        <item quantity="one">Una sola applicazione può aprire questo link</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d applicazioni possono ignorare l&apos;ottimizzazione della batteria</item>
+        <item quantity="one">1 applicazione può ignorare l&apos;ottimizzazione batteria</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d applicazioni hanno utilizzato la memoria negli ultimi %2$s</item>
+        <item quantity="one">1 applicazione ha utilizzato la memoria nell&apos;ultimo %2$s</item>
+    </plurals>
+</resources>

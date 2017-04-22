@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SuwThemeMaterial">
+        <item>@color/suw_color_secondary_dark</item>
+        <item>@color/suw_link_color_dark</item>
+        <item>@style/Animation.SuwWindowAnimation</item>
+        <item>10</item>
+        <item>@color/suw_color_accent_dark</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>@color/suw_progress_bar_color_dark</item>
+        <item>5</item>
+        <item>@drawable/suw_card_bg</item>
+        <item>@style/SuwNavBarThemeDark</item>
+    </style>
+    <style name="SuwThemeMaterial.Light">
+        <item>@color/suw_color_secondary_light</item>
+        <item>@color/suw_link_color_light</item>
+        <item>@style/Animation.SuwWindowAnimation</item>
+        <item>10</item>
+        <item>@color/suw_color_accent_light</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>@color/suw_progress_bar_color_light</item>
+        <item>5</item>
+        <item>@drawable/suw_card_bg</item>
+        <item>@style/SuwNavBarThemeLight</item>
+    </style>
+    <style name="Animation.SuwWindowAnimation">
+        <item>@anim/suw_slide_next_in</item>
+        <item>@anim/suw_slide_next_out</item>
+        <item>@anim/suw_slide_back_in</item>
+        <item>@anim/suw_slide_back_out</item>
+    </style>
+    <style name="SuwContentFrame">
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>@dimen/suw_content_frame_padding_top</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>@dimen/suw_content_frame_padding_bottom</item>
+    </style>
+    <style name="SuwDescription">
+        <item>@style/TextAppearance.SuwDescription</item>
+        <item>30</item>
+        <item>@dimen/suw_description_margin_top</item>
+        <item>@dimen/suw_description_margin_bottom</item>
+        <item>@dimen/suw_description_line_spacing_extra</item>
+    </style>
+    <style name="TextAppearance.SuwDescription.Light">
+        <item>sans-serif-light</item>
+    </style>
+    <style name="SuwRadioButton">
+        <item>@style/TextAppearance.SuwDescription</item>
+        <item>@dimen/suw_radio_button_padding_start</item>
+        <item>@dimen/suw_radio_button_margin_start</item>
+        <item>@dimen/suw_radio_button_margin_top</item>
+        <item>@dimen/suw_radio_button_margin_bottom</item>
+        <item>@dimen/suw_radio_button_line_spacing_extra</item>
+        <item>@dimen/suw_radio_button_padding_start</item>
+        <item>@dimen/suw_radio_button_margin_start</item>
+    </style>
+    <style name="SuwCheckBox">
+        <item>@style/TextAppearance.SuwDescription.Light</item>
+        <item>@dimen/suw_check_box_text_size</item>
+        <item>@dimen/suw_check_box_padding_start</item>
+        <item>@dimen/suw_check_box_margin_start</item>
+        <item>@dimen/suw_check_box_margin_top</item>
+        <item>@dimen/suw_check_box_margin_bottom</item>
+        <item>@dimen/suw_check_box_line_spacing_extra</item>
+        <item>@dimen/suw_check_box_padding_start</item>
+        <item>@dimen/suw_check_box_margin_start</item>
+    </style>
+    <style name="SuwCheckBox.Multiline">
+        <item>30</item>
+    </style>
+    <style name="SuwBaseCardTitle">
+        <item>@style/TextAppearance.SuwCardTitle</item>
+        <item>3</item>
+        <item>@dimen/suw_card_title_padding_start</item>
+        <item>@dimen/suw_card_title_padding_top</item>
+        <item>@dimen/suw_card_title_padding_end</item>
+        <item>@dimen/suw_card_title_padding_bottom</item>
+        <item>2</item>
+        <item>@dimen/suw_card_title_padding_start</item>
+        <item>@dimen/suw_card_title_padding_end</item>
+    </style>
+    <style name="SuwCardTitle">
+    </style>
+    <style name="SuwCardTitle">
+        <item>6</item>
+    </style>
+    <style name="SuwHeaderTitle">
+        <item>@dimen/suw_header_title_size</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>3</item>
+        <item>30</item>
+        <item>@dimen/suw_header_title_padding_top</item>
+        <item>@dimen/suw_header_title_padding_bottom</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>@dimen/suw_header_title_margin_bottom</item>
+        <item>2</item>
+        <item>@dimen/suw_header_title_line_spacing_extra</item>
+    </style>
+    <style name="SuwNavBarTheme">
+        <item>0</item>
+        <item>?attr/suwNavBarBackgroundColor</item>
+        <item>@dimen/suw_navbar_padding_sides</item>
+        <item>@dimen/suw_navbar_padding_sides</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.SuwDescription">
+        <item>@dimen/suw_description_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.SuwCardTitle">
+        <item>?unknown_ref: 106000b</item>
+    </style>
+    <style name="SuwNavBarButtonStyle">
+        <item>@dimen/suw_navbar_text_size</item>
+        <item>?attr/suwNavBarTextColor</item>
+        <item>?attr/suwNavBarButtonBackground</item>
+        <item>@dimen/suw_navbar_button_padding_sides</item>
+        <item>@dimen/suw_navbar_button_padding_sides</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="SuwNavBarThemeDark">
+        <item>@drawable/suw_navbar_ic_back</item>
+        <item>@color/suw_navbar_bg_dark</item>
+        <item>@drawable/suw_navbar_btn_bg</item>
+        <item>@drawable/suw_navbar_ic_more</item>
+        <item>@drawable/suw_navbar_ic_next</item>
+        <item>@color/suw_navbar_text_dark</item>
+    </style>
+    <style name="SuwNavBarThemeLight">
+        <item>@drawable/suw_navbar_ic_back</item>
+        <item>@color/suw_navbar_bg_light</item>
+        <item>@drawable/suw_navbar_btn_bg</item>
+        <item>@drawable/suw_navbar_ic_more</item>
+        <item>@drawable/suw_navbar_ic_next</item>
+        <item>@color/suw_navbar_text_light</item>
+    </style>
+    <style name="setup_wizard_navbar_style">
+        <item>0</item>
+        <item>?attr/setup_wizard_navbar_bg_color</item>
+        <item>-1</item>
+        <item>@dimen/setup_wizard_navbar_height</item>
+        <item>true</item>
+        <item>@dimen/setup_wizard_navbar_padding_sides</item>
+        <item>@dimen/setup_wizard_navbar_padding_sides</item>
+    </style>
+    <style name="setup_wizard_navbar_theme_dark">
+        <item>@color/setup_wizard_navbar_bg_dark</item>
+        <item>@color/setup_wizard_navbar_text_dark</item>
+    </style>
+    <style name="setup_wizard_navbar_theme_light">
+        <item>@color/setup_wizard_navbar_bg_light</item>
+        <item>@color/setup_wizard_navbar_text_light</item>
+    </style>
+    <style name="setup_wizard_navbar_button_style">
+        <item>@dimen/setup_wizard_navbar_text_size</item>
+        <item>?attr/setup_wizard_navbar_text_color</item>
+        <item>@drawable/setup_wizard_navbar_btn_bg</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0dp</item>
+        <item>@dimen/setup_wizard_navbar_button_drawable_padding</item>
+        <item>0.0</item>
+        <item>true</item>
+        <item>sans-serif</item>
+        <item>@dimen/setup_wizard_navbar_button_padding_sides</item>
+        <item>@dimen/setup_wizard_navbar_button_padding_sides</item>
+    </style>
+    <style name="dialog_fullscreen">
+        <item>?unknown_ref: 10800a9</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 1030003</item>
+        <item>true</item>
+    </style>
+    <style name="info_label">
+        <item>@style/TextAppearance.info_label</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>4dp</item>
+    </style>
+    <style name="info_value">
+        <item>@style/TextAppearance.info_value</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="info_small">
+        <item>@style/TextAppearance.info_small</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="info_layout">
+        <item>1</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>10dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="entry_layout">
+        <item>0</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="form_value">
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="TextAppearance">
+    </style>
+    <style name="TextAppearance.info_label">
+        <item>14sp</item>
+        <item>1</item>
+    </style>
+    <style name="TextAppearance.info_small">
+        <item>12sp</item>
+        <item>0</item>
+    </style>
+    <style name="TextAppearance.info_value">
+        <item>14sp</item>
+        <item>0</item>
+    </style>
+    <style name="TextAppearance.PasswordEntry">
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>11</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.CryptKeeper_PasswordEntry">
+        <item>1</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>80000006</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="TallTitleBarTheme">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Preference">
+        <item>@layout/preference_material_settings</item>
+    </style>
+    <style name="SyncSwitchPreference">
+        <item>@layout/preference_widget_sync_toggle</item>
+    </style>
+    <style name="PreferenceHeaderPanelSinglePane">
+        <item>?unknown_ref: 0</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferencePanelSinglePane">
+        <item>2000000</item>
+        <item>?unknown_ref: 0</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferenceHeaderListSinglePane">
+        <item>2000000</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>@dimen/settings_side_margin</item>
+        <item>@dimen/settings_side_margin</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferenceFragmentListSinglePane">
+        <item>2000000</item>
+        <item>@dimen/settings_side_margin</item>
+        <item>@dimen/settings_side_margin</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="SettingsPreferenceHeaderPanel">
+    </style>
+    <style name="SettingsPreferenceHeaderList">
+    </style>
+    <style name="PreferenceFragmentStyle">
+        <item>@layout/preference_list_fragment</item>
+    </style>
+    <style name="VertDivider">
+        <item>@color/divider_color</item>
+        <item>false</item>
+        <item>false</item>
+        <item>@dimen/vert_divider_width</item>
+        <item>-1</item>
+    </style>
+    <style name="TextAppearance.SetupWizardDescription">
+    </style>
+    <style name="TrimmedHorizontalProgressBar">
+        <item>3dp</item>
+        <item>@drawable/progress_indeterminate_horizontal_material_trimmed</item>
+        <item>3dp</item>
+    </style>
+    <style name="bt_item">
+        <item>800003</item>
+        <item>1</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>8dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="bt_item_label">
+        <item>14sp</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>5</item>
+    </style>
+    <style name="bt_item_edit_content">
+        <item>18sp</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="wifi_item">
+        <item>800003</item>
+        <item>1</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="wifi_item_label">
+        <item>?unknown_ref: 10301f0</item>
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>5</item>
+        <item>8dp</item>
+    </style>
+    <style name="wifi_item_content">
+        <item>?unknown_ref: 1030208</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>5</item>
+    </style>
+    <style name="wifi_advanced_toggle">
+        <item>14sp</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/ic_expand</item>
+        <item>8dp</item>
+    </style>
+    <style name="wifi_item_edit_content">
+        <item>18sp</item>
+        <item>4dp</item>
+        <item>4dp</item>
+    </style>
+    <style name="wifi_section">
+        <item>1</item>
+    </style>
+    <style name="setup_wizard_button">
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="setup_wizard_button">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>20sp</item>
+        <item>-2</item>
+        <item>48dp</item>
+        <item>208dp</item>
+    </style>
+    <style name="ConfirmDeviceCredentialsAnimationStyle">
+        <item>@anim/confirm_credential_open_enter</item>
+        <item>@anim/confirm_credential_open_exit</item>
+    </style>
+    <style name="Transparent">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="CryptKeeperBlankTheme">
+        <item>#ff000000</item>
+    </style>
+    <style name="SecurityPreferenceButtonContainer">
+        <item>-1</item>
+        <item>-2</item>
+        <item>2.0</item>
+        <item>8dp</item>
+    </style>
+    <style name="SecurityPreferenceButton">
+        <item>4</item>
+        <item>0dp</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>1.0</item>
+    </style>
+    <style name="vpn_label">
+        <item>?unknown_attr_ref: 1010042</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="vpn_value">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.PagerTabs">
+    </style>
+    <style name="KeyguardAppWidgetItem">
+        <item>18sp</item>
+    </style>
+    <style name="KeyguardAppWidgetItem">
+        <item>16sp</item>
+    </style>
+    <style name="KeyguardAppWidgetItem">
+        <item>18sp</item>
+    </style>
+    <style name="KeyguardAppWidgetItem">
+        <item>16sp</item>
+    </style>
+    <style name="KeyguardAppWidgetItem">
+        <item>18sp</item>
+    </style>
+    <style name="ApnPreference">
+        <item>@layout/apn_preference_layout</item>
+    </style>
+    <style name="AppListSwitchPreference">
+        <item>?unknown_ref: 10900b5</item>
+    </style>
+    <style name="TextAppearance.Medium">
+    </style>
+    <style name="TextAppearance.Small">
+    </style>
+    <style name="TextAppearance.Switch">
+    </style>
+    <style name="TextAppearance.CategoryTitle">
+        <item>?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="TextAppearance.TileTitle">
+    </style>
+    <style name="TextAppearance.TileSubTitle">
+    </style>
+    <style name="TextAppearance.RecentsTitle">
+    </style>
+    <style name="TextAppearance.ResultTitle">
+    </style>
+    <style name="TextAppearance.FingerprintMessage">
+        <item>@dimen/suw_description_line_spacing_extra</item>
+    </style>
+    <style name="Button.FingerprintButton">
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>@dimen/suw_description_line_spacing_extra</item>
+    </style>
+    <style name="TextAppearance.FingerprintLink">
+        <item>?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="TextAppearance.FingerprintErrorText">
+        <item>@color/warning</item>
+    </style>
+    <style name="FingerprintLayoutTheme">
+        <item>@drawable/fp_enrollment_header</item>
+        <item>@dimen/fingerprint_decor_padding_top</item>
+        <item>@dimen/fingerprint_illustration_aspect_ratio</item>
+    </style>
+    <style name="SetupWizardFingerprintLayoutTheme">
+        <item>@drawable/setup_illustration_tile</item>
+        <item>@drawable/setup_illustration_lock_screen</item>
+        <item>@drawable/setup_illustration_horizontal_tile</item>
+    </style>
+    <style name="TextAppearance.ConfirmDeviceCredentialsErrorText">
+        <item>@color/warning</item>
+    </style>
+    <style name="TextAppearance.Small.SwitchBar">
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.RemoveDialogContent">
+        <item>16sp</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="SetupWizardStorageStyle">
+        <item>#ff009688</item>
+        <item>@dimen/fingerprint_decor_padding_top</item>
+    </style>
+    <style name="ApplyLockStyle">
+        <item>@style/my_actionbar_style</item>
+    </style>
+    <style name="my_actionbar_style">
+        <item>@style/AcBar_titleStyle</item>
+    </style>
+    <style name="AcBar_titleStyle">
+        <item>18sp</item>
+        <item>#ffffffff</item>
+    </style>
+    <style name="Theme.CreateShortCut">
+        <item>true</item>
+    </style>
+    <style name="SetupWizardDisableAppStartingTheme">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="SetupWizardTheme">
+        <item>?unknown_attr_ref: 1010031</item>
+        <item>@style/ThemeOverlay.AlertDialog</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>?unknown_ref: 1030335</item>
+        <item>@color/setup_lock_pattern_view_regular_color_dark</item>
+        <item>@color/setup_lock_pattern_view_error_color_dark</item>
+        <item>@color/setup_lock_pattern_view_success_color_dark</item>
+        <item>?unknown_attr_ref: 1010031</item>
+        <item>@style/SetupWizardFingerprintLayoutTheme</item>
+        <item>@dimen/setup_fingerprint_progress_bar_size</item>
+        <item>@dimen/setup_fingerprint_ring_radius</item>
+        <item>@drawable/ic_menu_add_dark</item>
+        <item>?unknown_ref: 10803da</item>
+        <item>@drawable/ic_wps_dark</item>
+        <item>@color/setup_divider_color_dark</item>
+        <item>0dp</item>
+        <item>@color/setup_wizard_wifi_color_dark</item>
+        <item>@drawable/wifi_signal</item>
+    </style>
+    <style name="SetupWizardTheme.Light">
+        <item>?unknown_attr_ref: 1010031</item>
+        <item>@style/ThemeOverlay.AlertDialog</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>@dimen/suw_layout_margin_sides</item>
+        <item>?unknown_ref: 1030335</item>
+        <item>@color/setup_lock_pattern_view_regular_color_light</item>
+        <item>@color/setup_lock_pattern_view_error_color_light</item>
+        <item>@color/setup_lock_pattern_view_success_color_light</item>
+        <item>?unknown_attr_ref: 1010031</item>
+        <item>@style/SetupWizardFingerprintLayoutTheme</item>
+        <item>@dimen/setup_fingerprint_progress_bar_size</item>
+        <item>@dimen/setup_fingerprint_ring_radius</item>
+        <item>@drawable/ic_menu_add_light</item>
+        <item>?unknown_ref: 10803da</item>
+        <item>@drawable/ic_wps_light</item>
+        <item>@color/setup_divider_color_light</item>
+        <item>0dp</item>
+        <item>@color/setup_wizard_wifi_color_light</item>
+        <item>@drawable/wifi_signal</item>
+    </style>
+    <style name="Theme.WifiDialog">
+        <item>10</item>
+        <item>@drawable/ic_menu_add_dark</item>
+        <item>?unknown_ref: 10803da</item>
+        <item>@drawable/ic_wps_dark</item>
+        <item>@drawable/wifi_signal_dark</item>
+    </style>
+    <style name="Theme.SettingsBase">
+    </style>
+    <style name="Theme.Settings">
+        <item>@style/Preference</item>
+        <item>@style/Theme.ActionBar</item>
+        <item>@dimen/actionbar_size</item>
+        <item>@style/Theme.AlertDialog</item>
+        <item>@style/SwitchGestureStyle</item>
+        <item>@style/PreferenceFragmentStyle</item>
+        <item>@style/PreferencePanelSinglePane</item>
+        <item>@style/PreferenceHeaderPanelSinglePane</item>
+        <item>@style/PreferenceHeaderListSinglePane</item>
+        <item>@style/PreferenceFragmentListSinglePane</item>
+        <item>@dimen/settings_side_margin</item>
+        <item>@color/lock_pattern_view_regular_color</item>
+        <item>@color/lock_pattern_view_error_color</item>
+        <item>@color/lock_pattern_view_success_color</item>
+        <item>@style/ApnPreference</item>
+        <item>@style/ThemeOverlay.SwitchBar.Settings</item>
+        <item>@drawable/preference_background</item>
+        <item>@style/FingerprintLayoutTheme</item>
+        <item>@dimen/fingerprint_progress_bar_size</item>
+        <item>@dimen/fingerprint_ring_radius</item>
+        <item>@drawable/ic_menu_add_dark</item>
+        <item>?unknown_ref: 10803d8</item>
+        <item>@drawable/ic_wps_light</item>
+        <item>@dimen/settings_side_margin</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>@drawable/wifi_signal</item>
+    </style>
+    <style name="Theme.SubSettings">
+        <item>@style/Theme.ActionBar.SubSettings</item>
+        <item>@style/ThemeOverlay.SwitchBar.SubSettings</item>
+    </style>
+    <style name="Theme.ActionBar">
+        <item>@dimen/actionbar_contentInsetStart</item>
+    </style>
+    <style name="Theme.ActionBar.SubSettings">
+        <item>@dimen/actionbar_subsettings_contentInsetStart</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.Settings">
+        <item>@dimen/switchbar_margin_start</item>
+        <item>@dimen/switchbar_margin_end</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.SubSettings">
+        <item>@dimen/switchbar_subsettings_margin_start</item>
+        <item>@dimen/switchbar_subsettings_margin_end</item>
+    </style>
+    <style name="Theme.DialogWhenLarge">
+        <item>@style/Theme.ActionBar</item>
+        <item>@drawable/preference_background</item>
+    </style>
+    <style name="Theme.CryptKeeper">
+        <item>?unknown_ref: 106000c</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>@color/unlock_pattern_view_regular_color</item>
+        <item>@color/unlock_pattern_view_error_color</item>
+        <item>@color/unlock_pattern_view_success_color</item>
+    </style>
+    <style name="Theme.SubSettingsDialogWhenLarge">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 103024c</item>
+        <item>@drawable/preference_background</item>
+    </style>
+    <style name="ThemeOverlay.AlertDialog">
+        <item>10</item>
+    </style>
+    <style name="Theme.AlertDialog">
+        <item>10</item>
+        <item>@style/Theme.ActionBar</item>
+    </style>
+    <style name="Theme.NotificationStation">
+        <item>@style/Theme.ActionBar.SubSettings</item>
+        <item>@dimen/actionbar_size</item>
+        <item>?unknown_ref: 106000d</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar">
+        <item>@color/switch_accent_color</item>
+    </style>
+    <style name="SwitchGestureStyle">
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentials">
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentials">
+        <item>0dp</item>
+        <item>64dp</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentials">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentialsDark">
+        <item>@color/confirm_device_credential_dark_background</item>
+        <item>true</item>
+        <item>@style/ConfirmDeviceCredentialsAnimationStyle</item>
+        <item>false</item>
+        <item>?unknown_ref: 10600d5</item>
+        <item>?unknown_ref: 10600d6</item>
+        <item>@color/lock_pattern_view_regular_color_dark</item>
+        <item>@color/lock_pattern_view_error_color</item>
+        <item>@color/lock_pattern_view_regular_color_dark</item>
+        <item>32dp</item>
+        <item>32dp</item>
+    </style>
+    <style name="Theme.FingerprintEnroll">
+        <item>@style/Animation.SuwWindowAnimation</item>
+    </style>
+</resources>

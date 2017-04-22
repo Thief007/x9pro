@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="@string/location_settings_title" settings:key="location_settings" settings:keywords="@string/keywords_location">
+    <Preference settings:title="@string/location_mode_title" settings:key="location_mode" settings:summary="@string/location_mode_location_off_title" settings:keywords="@string/keywords_location_mode" />
+    <PreferenceCategory settings:title="@string/managed_profile_location_category" settings:key="managed_profile_location_category">
+        <Preference settings:persistent="false" settings:enabled="false" settings:title="@string/managed_profile_location_switch_title" settings:selectable="false" settings:key="managed_profile_location_switch" settings:summary="@string/managed_profile_location_switch_lockdown" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="@string/location_category_recent_location_requests" settings:key="recent_location_requests" />
+    <PreferenceCategory settings:title="@string/location_category_location_services" settings:key="location_services" />
+</PreferenceScreen>
